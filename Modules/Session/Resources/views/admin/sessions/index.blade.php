@@ -29,6 +29,11 @@
                         <table class="data-table table table-bordered table-hover">
                             <thead>
                             <tr>
+                                <th>ID</th>
+                                <th>Title</th>
+                                <th>Location</th>
+                                <th>Start time</th>
+                                <th>End time</th>
                                 <th>{{ trans('core::core.table.created at') }}</th>
                                 <th data-sortable="false">{{ trans('core::core.table.actions') }}</th>
                             </tr>
@@ -37,6 +42,21 @@
                             <?php if (isset($sessions)): ?>
                             <?php foreach ($sessions as $session): ?>
                             <tr>
+                                <td>
+                                    <p>{{$session->id}}</p>
+                                </td>
+                                <td>
+                                    <p>{{$session->title}}</p>
+                                </td>
+                                <td>
+                                    <p>{{$session->location}}</p>
+                                </td>
+                                <td>
+                                    <p>{{$session->startTime}}</p>
+                                </td>
+                                <td>
+                                    <p>{{$session->endTime}}</p>
+                                </td>
                                 <td>
                                     <a href="{{ route('admin.session.session.edit', [$session->id]) }}">
                                         {{ $session->created_at }}

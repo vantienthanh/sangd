@@ -11,5 +11,5 @@ class Session extends Model
 
     protected $table = 'session__sessions';
     public $translatedAttributes = [];
-    protected $fillable = [];
+    protected $fillable = ['title','location','startTime','endTime'];
 }

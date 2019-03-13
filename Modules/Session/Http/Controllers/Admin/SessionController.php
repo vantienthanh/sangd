@@ -2,6 +2,7 @@
 
 namespace Modules\Session\Http\Controllers\Admin;
 
+use Illuminate\Contracts\Config\Repository;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Modules\Session\Entities\Session;
@@ -16,12 +17,14 @@ class SessionController extends AdminBaseController
      * @var SessionRepository
      */
     private $session;
+    private $config;
 
-    public function __construct(SessionRepository $session)
+    public function __construct(SessionRepository $session,Repository $config)
     {
         parent::__construct();
 
         $this->session = $session;
+        $this->config = $config;
     }
 
     /**
@@ -31,9 +34,9 @@ class SessionController extends AdminBaseController
      */
     public function index()
     {
-        //$sessions = $this->session->all();
+        $sessions = $this->session->all();
 
-        return view('session::admin.sessions.index', compact(''));
+        return view('session::admin.sessions.index', compact('sessions'));
     }
 
     /**
@@ -43,7 +46,8 @@ class SessionController extends AdminBaseController
      */
     public function create()
     {
-        return view('session::admin.sessions.create');
+        $location = $this->config->get('asgard.core.tinh-thanh');
+        return view('session::admin.sessions.create',compact('location'));
     }
 
     /**
