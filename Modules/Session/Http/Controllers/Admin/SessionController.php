@@ -58,7 +58,12 @@ class SessionController extends AdminBaseController
      */
     public function store(CreateSessionRequest $request)
     {
-        $this->session->create($request->all());
+//        dd(strtotime($request->startTime));
+        $data = $request;
+        $data->startTime = strtotime($data->startTime);
+        $data->endTime = date('Y-m-d H:m:s',strtotime($data->endTime));
+        dd( $data->startTime);
+        $this->session->create($data->all());
 
         return redirect()->route('admin.session.session.index')
             ->withSuccess(trans('core::core.messages.resource created', ['name' => trans('session::sessions.title.sessions')]));

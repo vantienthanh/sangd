@@ -68,6 +68,7 @@
     <script type="text/javascript">
         $(function () {
             $('#datetimepicker1').datetimepicker();
+            $('#datetimepicker3').datetimepicker();
         });
     </script>
 @endpush
