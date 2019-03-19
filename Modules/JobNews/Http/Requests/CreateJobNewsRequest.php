@@ -8,7 +8,16 @@ class CreateJobNewsRequest extends BaseFormRequest
 {
     public function rules()
     {
-        return [];
+        return [
+            'title' => 'required',
+            'salary' => 'required',
+            'benefit' => 'required',
+            'user_id' =>'required',
+            'description' => 'required',
+            'startTime' => 'required',
+            'endTime' => 'required',
+            'amount' => 'required',
+            ];
     }
 
     public function translationRules()

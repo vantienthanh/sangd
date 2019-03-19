@@ -7,5 +7,8 @@
  */
 $api = app('Dingo\Api\Routing\Router');
 $api->version('v1', function ($api) {
-    $api->get('user', '\Modules\Profile\Http\Controllers\UserController@login');
+    $api->get('/user', [
+        'as' => 'user.user',
+        'uses' => 'Modules\Profile\Http\Controllers\Api\UserController@login'
+    ]);
 });

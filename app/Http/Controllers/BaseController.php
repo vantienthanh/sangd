@@ -15,4 +15,10 @@ use Illuminate\Routing\Controller;
 class BaseController extends Controller
 {
     use Helpers;
+    public function withCustomSuccess () {
+        return response()->json([
+            'errors' => false,
+            'message' => 'success',
+        ]);
+    }
 }

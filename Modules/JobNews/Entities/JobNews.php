@@ -7,9 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class JobNews extends Model
 {
-    use Translatable;
+//    use Translatable;
 
     protected $table = 'jobnews__jobnews';
-    public $translatedAttributes = [];
+//    public $translatedAttributes = [];
     protected $fillable = [];
 }
