@@ -30,7 +30,8 @@
         "idavoll/flatly-theme": "~3.0",
         "idavoll/adminlte-theme": "~3.0",
         "dingo/api": "2.0.0-beta1",
-        "tymon/jwt-auth": "1.0.0-rc.3"
+        "tymon/jwt-auth": "1.0.0-rc.3",
+        "barryvdh/laravel-cors": "^0.11.3"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
