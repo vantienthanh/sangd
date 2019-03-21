@@ -13,9 +13,11 @@ use League\Fractal\TransformerAbstract;
 
 class TokenTransformers extends TransformerAbstract
 {
-    public function transform ($data) {
+    public function transform($data)
+    {
         return [
-          'token' => $data->token
+            'token' => $data->token,
+            'user' => $data->user
         ];
     }
 }

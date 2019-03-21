@@ -13,6 +13,7 @@ class FrontendUser extends Authenticatable implements JWTSubject
     protected $table = 'profile__frontendUsers';
 //    public $translatedAttributes = [];
     protected $fillable = ['username', 'password', 'role'];
+    protected $hidden = ['password'];
 
     public function getJWTIdentifier()
     {
@@ -22,5 +23,9 @@ class FrontendUser extends Authenticatable implements JWTSubject
     public function getJWTCustomClaims()
     {
         return [];
+    }
+
+    public function info() {
+        return $this->hasOne(FrontendUserInfo::class,'id','user_id');
     }
 }

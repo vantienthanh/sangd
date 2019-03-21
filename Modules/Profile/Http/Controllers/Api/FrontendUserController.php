@@ -13,6 +13,7 @@ use App\Http\Controllers\BaseController;
 use Modules\Profile\Http\Requests\CreateFrontendUserRequest;
 use Modules\Profile\Http\Requests\FrontendLoginRequest;
 use Modules\Profile\Transformers\TokenTransformers;
+use Modules\Profile\Transformers\UserInfoTransformers;
 use Tymon\JWTAuth\Exceptions\JWTException;
 use JWTAuth;
 use Modules\Profile\Entities\FrontendUser as User;
@@ -30,6 +31,7 @@ class FrontendUserController extends BaseController
         } catch (JWTException $e) {
             return response()->json(['error' => 'could_not_create_token'], 500);
         }
+        $data->user = JWTAuth::user();
         return $this->response->item($data, new TokenTransformers);
     }
 
@@ -41,12 +43,13 @@ class FrontendUserController extends BaseController
             'role' => $request->get('role'),
             'password' => bcrypt($request->get('password')),
         ]);
-//        dd(123);
-        $user = User::first();
-       $data->token = JWTAuth::fromUser($user);
-
+//        $user = User::first();
+        $credentials = $request->only('username', 'password');
+        $data->token = JWTAuth::attempt($credentials);
+        $data->user = JWTAuth::user();
+//       $data->token = JWTAuth::fromUser($user);
+//        dd($user);
         return $this->response->item($data, new TokenTransformers);
     }
-
 
 }

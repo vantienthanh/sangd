@@ -11,5 +11,5 @@ class FrontendUserInfo extends Model
 
     protected $table = 'profile__frontenduserinfos';
 //    public $translatedAttributes = [];
-    protected $fillable = [];
+    protected $fillable = ['name','phoneNumber','email','address','job','jobDetail','educationLevel','birthday','description','user_id'];
 }
