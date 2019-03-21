@@ -29,7 +29,11 @@ class ProfileServiceProvider extends ServiceProvider
         $this->app['events']->listen(BuildingSidebar::class, RegisterProfileSidebar::class);
 
         $this->app['events']->listen(LoadingBackendTranslations::class, function (LoadingBackendTranslations $event) {
+            $event->load('frontendusers', array_dot(trans('profile::frontendusers')));
+            $event->load('frontenduserinfos', array_dot(trans('profile::frontenduserinfos')));
             // append translations
+
+
         });
     }
 
@@ -52,6 +56,32 @@ class ProfileServiceProvider extends ServiceProvider
 
     private function registerBindings()
     {
+        $this->app->bind(
+            'Modules\Profile\Repositories\FrontendUserRepository',
+            function () {
+                $repository = new \Modules\Profile\Repositories\Eloquent\EloquentFrontendUserRepository(new \Modules\Profile\Entities\FrontendUser());
+
+                if (! config('app.cache')) {
+                    return $repository;
+                }
+
+                return new \Modules\Profile\Repositories\Cache\CacheFrontendUserDecorator($repository);
+            }
+        );
+        $this->app->bind(
+            'Modules\Profile\Repositories\FrontendUserInfoRepository',
+            function () {
+                $repository = new \Modules\Profile\Repositories\Eloquent\EloquentFrontendUserInfoRepository(new \Modules\Profile\Entities\FrontendUserInfo());
+
+                if (! config('app.cache')) {
+                    return $repository;
+                }
+
+                return new \Modules\Profile\Repositories\Cache\CacheFrontendUserInfoDecorator($repository);
+            }
+        );
 // add bindings
+
+
     }
 }

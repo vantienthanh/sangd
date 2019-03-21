@@ -1,22 +1,23 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: thanh
+ * Date: 21/03/2019
+ * Time: 10:41
+ */
 
-namespace Modules\Membercv\Http\Requests;
+namespace Modules\Profile\Http\Requests;
+
 
 use Modules\Core\Internationalisation\BaseFormRequest;
 
-class CreateMembercvRequest extends BaseFormRequest
+class FrontendLoginRequest extends BaseFormRequest
 {
     public function rules()
     {
         return [
-            'title' => 'required',
-            'location' => 'required',
-            'job' => 'required',
-            'jobDetail' => 'required',
-            'position' => 'required',
-            'workingTime' => 'required',
-            'description' => 'required',
-            'startTime' => 'required',
+            'username' => 'required',
+            'password'=> 'required'
         ];
     }
 

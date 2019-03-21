@@ -1,22 +1,17 @@
 <?php
 
-namespace Modules\Membercv\Http\Requests;
+namespace Modules\Profile\Http\Requests;
 
 use Modules\Core\Internationalisation\BaseFormRequest;
 
-class CreateMembercvRequest extends BaseFormRequest
+class CreateFrontendUserRequest extends BaseFormRequest
 {
     public function rules()
     {
         return [
-            'title' => 'required',
-            'location' => 'required',
-            'job' => 'required',
-            'jobDetail' => 'required',
-            'position' => 'required',
-            'workingTime' => 'required',
-            'description' => 'required',
-            'startTime' => 'required',
+            'username' => 'required|string|max:255|unique:profile__frontendUsers',
+            'role' => 'required',
+            'password'=> 'required'
         ];
     }
 

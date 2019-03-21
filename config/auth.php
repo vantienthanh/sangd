@@ -14,7 +14,7 @@ return [
     */
 
     'defaults' => [
-        'guard' => 'web',
+        'guard' => 'api',
         'passwords' => 'users',
     ],
 
@@ -43,7 +43,7 @@ return [
 
         'api' => [
             'driver' => 'jwt',
-            'provider' => 'users',
+            'provider' => 'frontendUser',
         ],
     ],
 
@@ -70,10 +70,10 @@ return [
             'model' => Modules\User\Entities\Sentinel\User::class,
         ],
 
-        // 'users' => [
-        //     'driver' => 'database',
-        //     'table' => 'users',
-        // ],
+         'frontendUser' => [
+             'driver' => 'eloquent',
+             'model' => \Modules\Profile\Entities\FrontendUser::class,
+         ],
     ],
 
     /*
