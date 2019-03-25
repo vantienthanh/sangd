@@ -9,6 +9,7 @@ use Modules\Enterprisesession\Http\Requests\CreateEnterprisesessionRequest;
 use Modules\Enterprisesession\Http\Requests\UpdateEnterprisesessionRequest;
 use Modules\Enterprisesession\Repositories\EnterprisesessionRepository;
 use Modules\Core\Http\Controllers\Admin\AdminBaseController;
+use Modules\Session\Repositories\SessionRepository;
 
 class EnterprisesessionController extends AdminBaseController
 {
@@ -16,12 +17,14 @@ class EnterprisesessionController extends AdminBaseController
      * @var EnterprisesessionRepository
      */
     private $enterprisesession;
+    private $session;
 
-    public function __construct(EnterprisesessionRepository $enterprisesession)
+    public function __construct(EnterprisesessionRepository $enterprisesession, SessionRepository $session)
     {
         parent::__construct();
 
         $this->enterprisesession = $enterprisesession;
+        $this->session = $session;
     }
 
     /**
@@ -32,10 +35,13 @@ class EnterprisesessionController extends AdminBaseController
     public function index()
     {
         //$enterprisesessions = $this->enterprisesession->all();
-
-        return view('enterprisesession::admin.enterprisesessions.index', compact(''));
+        $sessions = $this->session->all();
+        return view('enterprisesession::admin.enterprisesessions.index', compact('sessions'));
     }
-
+public function detail (Request $request) {
+        $detail = $this->enterprisesession->getByEnterpriseID($request->session_id);
+    return view('enterprisesession::admin.enterprisesessions.detail', compact('detail'));
+}
     /**
      * Show the form for creating a new resource.
      *

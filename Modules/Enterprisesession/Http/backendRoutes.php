@@ -12,6 +12,11 @@ $router->group(['prefix' =>'/enterprisesession'], function (Router $router) {
         'uses' => 'EnterprisesessionController@index',
         'middleware' => 'can:enterprisesession.enterprisesessions.index'
     ]);
+    $router->get('enterprisesessions/{session_id}', [
+        'as' => 'admin.session.enterprisesession.detail',
+        'uses' => 'EnterprisesessionController@detail',
+        'middleware' => 'can:enterprisesession.enterprisesessions.index'
+    ]);
     $router->get('enterprisesessions/create', [
         'as' => 'admin.enterprisesession.enterprisesession.create',
         'uses' => 'EnterprisesessionController@create',

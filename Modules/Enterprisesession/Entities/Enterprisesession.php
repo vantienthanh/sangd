@@ -9,10 +9,10 @@ use Modules\Session\Entities\Session;
 
 class Enterprisesession extends Model
 {
-    use Translatable;
+//    use Translatable;
 
-    protected $table = 'enterprisesession__enterprisesessions';
-    public $translatedAttributes = [];
+    protected $table = 'Enterprise_Sessions';
+//    public $translatedAttributes = [];
     protected $fillable = [];
 
     public function session () {
