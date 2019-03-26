@@ -15,7 +15,8 @@ class CreateEnterprisesessionTable extends Migration
         Schema::create('Enterprise_Sessions', function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');
-            $table->tinyInteger('enterprise_id');
+            $table->tinyInteger('user_id');
+            $table->tinyInteger('session_id');
             $table->String('status');
             $table->timestamps();
         });

@@ -25,6 +25,7 @@ class MembercvDatabaseSeeder extends Seeder
                 'job' => $faker->jobTitle,
                 'jobDetail' => $faker->jobTitle,
                 'description' => $faker->text,
+                'user_id' => $i,
                 'position' => $faker->title,
                 'workingTime' => '8 hours',
                 'created_at' => date('Y-m-d H:m:s', strtotime("-1 days", time())),
@@ -32,6 +33,6 @@ class MembercvDatabaseSeeder extends Seeder
             ];
             $arrayFakeData[] = $data;
         }
-        DB::table('membercv__membercvs')->insert($arrayFakeData);
+        DB::table('memberCV')->insert($arrayFakeData);
     }
 }

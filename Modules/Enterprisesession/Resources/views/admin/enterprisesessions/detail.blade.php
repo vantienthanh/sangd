@@ -1,3 +1,4 @@
+
 @extends('layouts.master')
 
 @section('content-header')
@@ -31,6 +32,9 @@
                         <table class="data-table table table-bordered table-hover">
                             <thead>
                             <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Status</th>
                                 <th>{{ trans('core::core.table.created at') }}</th>
                                 <th data-sortable="false">{{ trans('core::core.table.actions') }}</th>
                             </tr>
@@ -42,6 +46,16 @@
                                 <td>
                                     <a href="{{ route('admin.enterprisesession.enterprisesession.edit', [$item->id]) }}">
                                         {{ $item->id }}
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="{{ route('admin.enterprisesession.enterprisesession.edit', [$item->id]) }}">
+                                        {{--{{ $item->id }}--}}test
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="{{ route('admin.enterprisesession.enterprisesession.edit', [$item->id]) }}">
+                                        {{ $item->status }}
                                     </a>
                                 </td>
                                 <td>

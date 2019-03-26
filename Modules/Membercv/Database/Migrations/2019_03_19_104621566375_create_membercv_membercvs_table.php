@@ -12,7 +12,7 @@ class CreateMembercvMembercvsTable extends Migration
      */
     public function up()
     {
-        Schema::create('membercv__membercvs', function (Blueprint $table) {
+        Schema::create('memberCV', function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');
             // Your fields
@@ -23,7 +23,8 @@ class CreateMembercvMembercvsTable extends Migration
             $table->string('position');
             $table->string('workingTime');
             $table->text('description');
-            $table->timestamp('startTime');
+            $table->String('startTime');
+            $table->tinyInteger('user_id');
             $table->timestamps();
         });
     }
@@ -35,6 +36,6 @@ class CreateMembercvMembercvsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('membercv__membercvs');
+        Schema::dropIfExists('memberCV');
     }
 }

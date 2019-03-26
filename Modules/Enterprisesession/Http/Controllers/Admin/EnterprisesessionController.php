@@ -40,6 +40,7 @@ class EnterprisesessionController extends AdminBaseController
     }
 public function detail (Request $request) {
         $detail = $this->enterprisesession->getByEnterpriseID($request->session_id);
+//        dd($detail);
     return view('enterprisesession::admin.enterprisesessions.detail', compact('detail'));
 }
     /**
@@ -74,6 +75,7 @@ public function detail (Request $request) {
      */
     public function edit(Enterprisesession $enterprisesession)
     {
+        $enterprisesession->load('session');
         return view('enterprisesession::admin.enterprisesessions.edit', compact('enterprisesession'));
     }
 
@@ -86,6 +88,7 @@ public function detail (Request $request) {
      */
     public function update(Enterprisesession $enterprisesession, UpdateEnterprisesessionRequest $request)
     {
+//        dd($request->all());
         $this->enterprisesession->update($enterprisesession, $request->all());
 
         return redirect()->route('admin.enterprisesession.enterprisesession.index')

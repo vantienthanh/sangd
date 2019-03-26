@@ -7,9 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Membercv extends Model
 {
-    use Translatable;
+//    use Translatable;
 
-    protected $table = 'membercv__membercvs';
-    public $translatedAttributes = [];
+    protected $table = 'memberCV';
+//    public $translatedAttributes = [];
     protected $fillable = [];
 }

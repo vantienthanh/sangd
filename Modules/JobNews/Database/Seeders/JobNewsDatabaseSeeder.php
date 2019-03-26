@@ -32,6 +32,6 @@ class JobNewsDatabaseSeeder extends Seeder
             ];
             $arrayFakeData[] = $data;
         }
-        DB::table('jobnews__jobnews')->insert($arrayFakeData);
+        DB::table('jobNews')->insert($arrayFakeData);
     }
 }

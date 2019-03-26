@@ -29,6 +29,8 @@
                         <table class="data-table table table-bordered table-hover">
                             <thead>
                             <tr>
+                                <th>ID</th>
+                                <th>Title</th>
                                 <th>{{ trans('core::core.table.created at') }}</th>
                                 <th data-sortable="false">{{ trans('core::core.table.actions') }}</th>
                             </tr>
@@ -54,7 +56,7 @@
                                 </td>
                                 <td>
                                     <div class="btn-group">
-                                        <a href="{{ route('admin.session.enterprisesession.detail', [$item->id]) }}" class="btn btn-default btn-flat"><i class="fa icon-eye-open
+                                        <a href="{{ route('admin.session.enterprisesession.detail', [$item->id]) }}" class="btn btn-default btn-flat"><i class="fa fa-eye
 "></i></a>
                                         {{--<button class="btn btn-danger btn-flat" data-toggle="modal" data-target="#modal-delete-confirmation" data-action-target="{{ route('admin.enterprisesession.enterprisesession.destroy', [$enterprisesession->id]) }}"><i class="fa fa-trash"></i></button>--}}
                                     </div>
