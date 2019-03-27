@@ -7,24 +7,25 @@
  */
 $api = app('Dingo\Api\Routing\Router');
 $api->version('v1', function ($api) {
-    $api->get('/enterprise/jobnews', [
-        'as' => 'enterprise.jobnews',
+    $api->get('/enterprise/job-news', [
+        'as' => 'enterprise.jobNews.list',
         'uses' => 'Modules\JobNews\Http\Controllers\Api\JobNewsController@index'
     ]);
-    $api->get('/enterprise/jobnews/{id}', [
-        'as' => 'enterprise.jobnews.detail',
+    $api->get('/enterprise/job-news/detail/{id}', [
+        'as' => 'enterprise.jobNews.detail',
         'uses' => 'Modules\JobNews\Http\Controllers\Api\JobNewsController@detail'
     ]);
-    $api->post('/enterprise/jobnews/create', [
-        'as' => 'enterprise.jobnews.create',
+
+    $api->post('/enterprise/job-news/create', [
+        'as' => 'enterprise.jobNews.create',
         'uses' => 'Modules\JobNews\Http\Controllers\Api\JobNewsController@create'
     ]);
-    $api->delete('/enterprise/jobnews/delete/{id}', [
-        'as' => 'enterprise.jobnews.delete',
+    $api->delete('/enterprise/job-news/delete/{id}', [
+        'as' => 'enterprise.jobNews.delete',
         'uses' => 'Modules\JobNews\Http\Controllers\Api\JobNewsController@destroy'
     ]);
-    $api->put('/enterprise/jobnews/update/{id}', [
-        'as' => 'enterprise.jobnews.update',
+    $api->put('/enterprise/job-news/update/{id}', [
+        'as' => 'enterprise.jobNews.update',
         'uses' => 'Modules\JobNews\Http\Controllers\Api\JobNewsController@update'
     ]);
 });

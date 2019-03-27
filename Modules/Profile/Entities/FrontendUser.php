@@ -26,6 +26,6 @@ class FrontendUser extends Authenticatable implements JWTSubject
     }
 
     public function info() {
-        return $this->hasOne(FrontendUserInfo::class,'id','user_id');
+        return $this->hasOne(FrontendUserInfo::class,'user_id','id');
     }
 }

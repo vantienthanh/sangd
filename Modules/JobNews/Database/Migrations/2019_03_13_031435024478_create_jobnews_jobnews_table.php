@@ -12,7 +12,7 @@ class CreateJobNewsJobNewsTable extends Migration
      */
     public function up()
     {
-        Schema::create('jobnews__jobnews', function (Blueprint $table) {
+        Schema::create('jobNews', function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');
             $table->string('title');
@@ -34,6 +34,6 @@ class CreateJobNewsJobNewsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('jobnews__jobnews');
+        Schema::dropIfExists('jobNews');
     }
 }

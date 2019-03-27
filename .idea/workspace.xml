@@ -2,29 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22de62b7-91cf-4577-93ec-2fa3a6bbd88c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Enterprisesession/Http/Controllers/Api/EnterpriseSessionController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Enterprisesession/Http/apiRoutes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Enterprisesession/Resources/views/admin/enterprisesessions/detail.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Membersession/Database/Migrations/2019_03_13_041624849448_create_membersession_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Membersession/Http/Controllers/Api/MemberSessionController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Membersession/Http/apiRoutes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Membersession/Transformers/MemberSessionTransformers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Profile/Resources/lang/en/profiles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Core/Config/tinh-thanh.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Core/Providers/CoreServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Core/Providers/CoreServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Enterprisesession/Database/Migrations/2019_03_13_041600632556_create_enterprisesession_enterprisesessions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Enterprisesession/Database/Migrations/2019_03_13_041600632556_create_enterprisesession_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Enterprisesession/Database/Migrations/2019_03_13_041600883266_create_enterprisesession_enterprisesession_translations_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Enterprisesession/Database/Seeders/EnterprisesessionDatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Enterprisesession/Database/Seeders/EnterprisesessionDatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modules/Enterprisesession/Entities/Enterprisesession.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Enterprisesession/Entities/Enterprisesession.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Enterprisesession/Entities/EnterprisesessionTranslation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Enterprisesession/Http/Controllers/Admin/EnterprisesessionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Enterprisesession/Http/Controllers/Admin/EnterprisesessionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Enterprisesession/Http/backendRoutes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Enterprisesession/Http/backendRoutes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Enterprisesession/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Enterprisesession/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Enterprisesession/Repositories/Eloquent/EloquentEnterprisesessionRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Enterprisesession/Repositories/Eloquent/EloquentEnterprisesessionRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Enterprisesession/Repositories/EnterprisesessionRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Enterprisesession/Repositories/EnterprisesessionRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Enterprisesession/Resources/views/admin/enterprisesessions/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Enterprisesession/Resources/views/admin/enterprisesessions/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Enterprisesession/Resources/views/admin/enterprisesessions/partials/edit-fields.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Enterprisesession/Resources/views/admin/enterprisesessions/partials/edit-fields.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JobNews/Database/Migrations/2019_03_13_031435024478_create_jobnews_jobnews_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JobNews/Database/Migrations/2019_03_13_031435024478_create_jobnews_jobnews_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JobNews/Database/Migrations/2019_03_13_031435274899_create_jobnews_jobnews_translations_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JobNews/Database/Seeders/JobNewsDatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JobNews/Database/Seeders/JobNewsDatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JobNews/Entities/JobNews.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JobNews/Entities/JobNews.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JobNews/Entities/JobNewsTranslation.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Modules/JobNews/Http/Controllers/Api/JobNewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JobNews/Http/Controllers/Api/JobNewsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Membercv/Transformers/MemberCVDetailTransformers.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Membercv/Transformers/MemberCVDetailTransformers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Membercv/Transformers/MemberCVTransformers.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Membercv/Transformers/MemberCVTransformers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Membersession/Database/Migrations/2019_03_13_041625100056_create_membersession_membersession_translations_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JobNews/Http/apiRoutes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JobNews/Http/apiRoutes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JobNews/Repositories/Eloquent/EloquentJobNewsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JobNews/Repositories/Eloquent/EloquentJobNewsRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JobNews/Repositories/JobNewsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JobNews/Repositories/JobNewsRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Media/Events/Handlers/RegisterMediaSidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Media/Events/Handlers/RegisterMediaSidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Membercv/Database/Migrations/2019_03_19_104621566375_create_membercv_membercvs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Membercv/Database/Migrations/2019_03_19_104621566375_create_membercv_membercvs_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Membercv/Database/Migrations/2019_03_19_104621817284_create_membercv_membercv_translations_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Membercv/Database/Seeders/MembercvDatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Membercv/Database/Seeders/MembercvDatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Membercv/Entities/Membercv.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Membercv/Entities/Membercv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Membercv/Entities/MembercvTranslation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Membersession/Database/Migrations/2019_03_13_041624849448_create_membersession_membersessions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Enterprisesession/Database/Migrations/2019_03_13_041600632556_create_enterprisesession_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Membersession/Database/Seeders/MembersessionDatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Membersession/Database/Seeders/MembersessionDatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modules/Membersession/Entities/Membersession.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Membersession/Entities/Membersession.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Membersession/Entities/MembersessionTranslation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Profile/Http/Controllers/Api/FrontendUserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Profile/Http/Controllers/Api/FrontendUserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Profile/Http/Controllers/Api/FrontendUserInfoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Profile/Http/Controllers/Api/FrontendUserInfoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Profile/Http/Requests/FrontendLoginRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Profile/Http/Requests/FrontendLoginRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Membersession/Http/Requests/CreateMembersessionRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Membersession/Http/Requests/CreateMembersessionRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Membersession/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Membersession/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Membersession/Repositories/Eloquent/EloquentMembersessionRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Membersession/Repositories/Eloquent/EloquentMembersessionRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Membersession/Repositories/MembersessionRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Membersession/Repositories/MembersessionRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Menu/Events/Handlers/RegisterMenuSidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Menu/Events/Handlers/RegisterMenuSidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Page/Events/Handlers/RegisterPageSidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Page/Events/Handlers/RegisterPageSidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Profile/Entities/FrontendUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Profile/Entities/FrontendUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Profile/Entities/FrontendUserInfo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Profile/Entities/FrontendUserInfo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modules/Profile/Http/apiRoutes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Profile/Http/apiRoutes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Profile/Transformers/TokenTransformers.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Profile/Transformers/TokenTransformers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Profile/Transformers/UserInfoTransformers.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Profile/Transformers/UserInfoTransformers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Themes/Adminlte/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Themes/Adminlte/views/layouts/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BaseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Session/Database/Migrations/2019_03_13_040831545305_create_session_sessions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Session/Database/Migrations/2019_03_13_040831545305_create_session_sessions_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Session/Database/Migrations/2019_03_13_040831796124_create_session_session_translations_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Session/Entities/Session.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Session/Entities/Session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Session/Entities/SessionTranslation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Tag/Events/Handlers/RegisterTagSidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Tag/Events/Handlers/RegisterTagSidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Events/Handlers/RegisterTranslationSidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Events/Handlers/RegisterTranslationSidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/User/Events/Handlers/RegisterUserSidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/User/Events/Handlers/RegisterUserSidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Workshop/Events/Handlers/RegisterWorkshopSidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Workshop/Events/Handlers/RegisterWorkshopSidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,32 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/JobNews/Http/apiRoutes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Modules/JobNews/Http/Controllers/Api/JobNewsController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-              <folding>
-                <element signature="e#139#179#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/Profile/Http/apiRoutes.php">
+        <entry file="file://$PROJECT_DIR$/Modules/Membercv/Http/apiRoutes.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+              <caret line="15" column="65" lean-forward="true" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -106,6 +116,7 @@
       <find>jwtauth</find>
       <find>JWTAuth</find>
       <find>authenticate</find>
+      <find>#202227</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/Modules/EnterpriseSession</dir>
@@ -117,57 +128,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Modules/Enterprisesession/Http/apiRoutes.php" />
+        <option value="$PROJECT_DIR$/Modules/Enterprisesession/Http/Controllers/Api/EnterpriseSessionController.php" />
+        <option value="$PROJECT_DIR$/Modules/Enterprisesession/Http/backendRoutes.php" />
+        <option value="$PROJECT_DIR$/Modules/Enterprisesession/Repositories/EnterprisesessionRepository.php" />
+        <option value="$PROJECT_DIR$/Modules/Membersession/Database/Migrations/2019_03_13_041624849448_create_membersession_membersessions_table.php" />
+        <option value="$PROJECT_DIR$/Modules/Enterprisesession/Database/Migrations/2019_03_13_041600632556_create_enterprisesession_table.php" />
+        <option value="$PROJECT_DIR$/Modules/Membersession/Database/Migrations/2019_03_13_041624849448_create_membersession_table.php" />
+        <option value="$PROJECT_DIR$/Modules/Enterprisesession/Database/Seeders/EnterprisesessionDatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/Modules/Membersession/Database/Seeders/MembersessionDatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/Modules/Session/Database/Seeders/SessionDatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/Modules/Session/Resources/views/admin/sessions/index.blade.php" />
-        <option value="$PROJECT_DIR$/Modules/Core/Config/tinh-thanh.php" />
-        <option value="$PROJECT_DIR$/Modules/Core/Config/thanh.php" />
-        <option value="$PROJECT_DIR$/Modules/Core/Providers/CoreServiceProvider.php" />
-        <option value="$PROJECT_DIR$/Modules/Session/Resources/views/admin/sessions/create.blade.php" />
-        <option value="$PROJECT_DIR$/Modules/Session/Resources/views/admin/sessions/partials/create-fields.blade.php" />
-        <option value="$PROJECT_DIR$/Themes/Adminlte/views/layouts/master.blade.php" />
-        <option value="$PROJECT_DIR$/Modules/Session/Http/Controllers/Admin/SessionController.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/Modules/Profile/Http/Controllers/Api/UserController.php" />
-        <option value="$PROJECT_DIR$/config/api.php" />
-        <option value="$PROJECT_DIR$/Modules/JobNews/Providers/RouteServiceProvider.php" />
-        <option value="$PROJECT_DIR$/Modules/JobNews/Database/Seeders/JobNewsDatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/Modules/JobNews/Entities/JobNews.php" />
-        <option value="$PROJECT_DIR$/Modules/JobNews/Transformers/JobNewsTransformers.php" />
-        <option value="$PROJECT_DIR$/Modules/JobNews/Transformers/JobNewsDetailTransformers.php" />
+        <option value="$PROJECT_DIR$/Modules/Enterprisesession/Resources/views/admin/enterprisesessions/index.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Enterprisesession/Resources/views/admin/enterprisesessions/detail.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Enterprisesession/Resources/views/admin/enterprisesessions/partials/edit-fields.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Enterprisesession/Http/Controllers/Admin/EnterprisesessionController.php" />
+        <option value="$PROJECT_DIR$/Modules/Enterprisesession/Entities/Enterprisesession.php" />
+        <option value="$PROJECT_DIR$/Modules/Membersession/Providers/RouteServiceProvider.php" />
+        <option value="$PROJECT_DIR$/Modules/Membersession/Http/Requests/CreateMembersessionRequest.php" />
+        <option value="$PROJECT_DIR$/Modules/Enterprisesession/Repositories/Eloquent/EloquentEnterprisesessionRepository.php" />
+        <option value="$PROJECT_DIR$/Modules/Membersession/Repositories/MembersessionRepository.php" />
+        <option value="$PROJECT_DIR$/Modules/Session/Database/Migrations/2019_03_13_040831545305_create_session_sessions_table.php" />
         <option value="$PROJECT_DIR$/Modules/Session/Entities/Session.php" />
-        <option value="$PROJECT_DIR$/Modules/JobNews/Http/Requests/CreateJobNewsRequest.php" />
-        <option value="$PROJECT_DIR$/Modules/JobNews/Http/apiRoutes.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/BaseController.php" />
+        <option value="$PROJECT_DIR$/Modules/JobNews/Entities/JobNews.php" />
+        <option value="$PROJECT_DIR$/Modules/JobNews/Repositories/JobNewsRepository.php" />
+        <option value="$PROJECT_DIR$/Modules/Membercv/Entities/Membercv.php" />
+        <option value="$PROJECT_DIR$/Modules/JobNews/Database/Migrations/2019_03_13_031435024478_create_jobnews_jobnews_table.php" />
+        <option value="$PROJECT_DIR$/Modules/JobNews/Database/Seeders/JobNewsDatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/Modules/Membercv/Database/Migrations/2019_03_19_104621566375_create_membercv_membercvs_table.php" />
-        <option value="$PROJECT_DIR$/Modules/Membercv/Providers/RouteServiceProvider.php" />
         <option value="$PROJECT_DIR$/Modules/Membercv/Database/Seeders/MembercvDatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/Modules/Membercv/Transformers/MemberCVTransformers.php" />
-        <option value="$PROJECT_DIR$/Modules/Membercv/Http/Controllers/Api/MemberCVController.php" />
-        <option value="$PROJECT_DIR$/Modules/Membercv/Transformers/MemberCVDetailTransformers.php" />
-        <option value="$PROJECT_DIR$/Modules/Membercv/Http/apiRoutes.php" />
-        <option value="$PROJECT_DIR$/Modules/Membercv/Http/Requests/CreateMembercvRequest.php" />
-        <option value="$PROJECT_DIR$/Modules/Profile/Database/Migrations/2019_03_20_022656758827_create_profile_frontendusers_table.php" />
-        <option value="$PROJECT_DIR$/Modules/Profile/Database/Migrations/2019_03_20_022657265149_create_profile_frontenduserinfos_table.php" />
-        <option value="$PROJECT_DIR$/Modules/Profile/Database/Seeders/ProfileDatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/Modules/Profile/Http/Controllers/Api/FrontendUserInfoController.php" />
-        <option value="$PROJECT_DIR$/Modules/Profile/Providers/RouteServiceProvider.php" />
-        <option value="$PROJECT_DIR$/Modules/Profile/Http/Requests/CreateFrontendUserRequest.php" />
-        <option value="$PROJECT_DIR$/Modules/Profile/Http/Requests/FrontendLoginRequest.php" />
-        <option value="$PROJECT_DIR$/config/auth.php" />
-        <option value="$PROJECT_DIR$/Modules/Profile/Transformers/UserInfoTransformers.php" />
-        <option value="$PROJECT_DIR$/Modules/Profile/Transformers/TokenTransformers.php" />
-        <option value="$PROJECT_DIR$/Modules/Profile/Http/Controllers/Api/FrontendUserController.php" />
+        <option value="$PROJECT_DIR$/Modules/Membersession/Http/apiRoutes.php" />
+        <option value="$PROJECT_DIR$/Modules/Membersession/Repositories/Eloquent/EloquentMembersessionRepository.php" />
+        <option value="$PROJECT_DIR$/Modules/Membersession/Entities/Membersession.php" />
         <option value="$PROJECT_DIR$/Modules/Profile/Entities/FrontendUser.php" />
         <option value="$PROJECT_DIR$/Modules/Profile/Http/apiRoutes.php" />
         <option value="$PROJECT_DIR$/Modules/Profile/Entities/FrontendUserInfo.php" />
-        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
-        <option value="$PROJECT_DIR$/Modules/Enterprisesession/Entities/Enterprisesession.php" />
-        <option value="$PROJECT_DIR$/Modules/Enterprisesession/Database/Migrations/2019_03_13_041600632556_create_enterprisesession_table.php" />
-        <option value="$PROJECT_DIR$/Modules/Membersession/Entities/Membersession.php" />
-        <option value="$PROJECT_DIR$/Modules/Membersession/Database/Migrations/2019_03_13_041624849448_create_membersession_membersessions_table.php" />
+        <option value="$PROJECT_DIR$/Modules/Membersession/Http/Controllers/Api/MemberSessionController.php" />
+        <option value="$PROJECT_DIR$/Modules/Membersession/Transformers/MemberSessionTransformers.php" />
+        <option value="$PROJECT_DIR$/Modules/Enterprisesession/Config/config.php" />
+        <option value="$PROJECT_DIR$/Modules/Enterprisesession/Resources/lang/en/enterprisesessions.php" />
+        <option value="$PROJECT_DIR$/Modules/Profile/Resources/lang/en/profiles.php" />
+        <option value="$PROJECT_DIR$/Modules/Workshop/Events/Handlers/RegisterWorkshopSidebar.php" />
+        <option value="$PROJECT_DIR$/Modules/Tag/Events/Handlers/RegisterTagSidebar.php" />
+        <option value="$PROJECT_DIR$/Modules/Translation/Events/Handlers/RegisterTranslationSidebar.php" />
+        <option value="$PROJECT_DIR$/Modules/User/Events/Handlers/RegisterUserSidebar.php" />
+        <option value="$PROJECT_DIR$/Modules/Menu/Events/Handlers/RegisterMenuSidebar.php" />
+        <option value="$PROJECT_DIR$/Modules/Media/Events/Handlers/RegisterMediaSidebar.php" />
+        <option value="$PROJECT_DIR$/Modules/Page/Events/Handlers/RegisterPageSidebar.php" />
+        <option value="$PROJECT_DIR$/Themes/Adminlte/resources/assets/less/skins/dark/vars.less" />
+        <option value="$PROJECT_DIR$/Themes/Adminlte/resources/assets/less/skins/blue/vars.less" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/Modules/JobNews/Http/apiRoutes.php" />
         <option value="$PROJECT_DIR$/Modules/JobNews/Http/Controllers/Api/JobNewsController.php" />
+        <option value="$PROJECT_DIR$/Modules/JobNews/Repositories/Eloquent/EloquentJobNewsRepository.php" />
       </list>
     </option>
   </component>
@@ -320,6 +331,19 @@
               <item name="sangd" type="462c0819:PsiDirectoryNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sangd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sangd" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Membercv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sangd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sangd" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Membercv" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -331,7 +355,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../timekeeper" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
@@ -381,21 +405,23 @@
       <workItem from="1552977238367" duration="15281000" />
       <workItem from="1553047722214" duration="4033000" />
       <workItem from="1553052057795" duration="8323000" />
-      <workItem from="1553134919331" duration="19199000" />
-      <workItem from="1553276634778" duration="4224000" />
-      <workItem from="1553650354446" duration="93000" />
-      <workItem from="1553694221976" duration="616000" />
+      <workItem from="1553134919331" duration="19859000" />
+      <workItem from="1553225544357" duration="716000" />
+      <workItem from="1553252924940" duration="744000" />
+      <workItem from="1553500552141" duration="7668000" />
+      <workItem from="1553566347428" duration="24354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92722000" />
+    <option name="totallyTimeSpent" value="126231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879807" visible="true" weight="0.18760376" />
-      <window_info id="Structure" order="1" sideWeight="0.5012019" side_tool="true" weight="0.18760376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18760376" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -409,7 +435,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053364" side_tool="true" weight="0.17391305" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4994664" visible="true" weight="0.0877193" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4994664" weight="0.24414715" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32998884" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -425,246 +451,131 @@
     <option name="LAST_COMMIT_MESSAGE" value="add backend session form" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Modules/Membersession/Http/Requests/CreateMembersessionRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Membersession/Repositories/MembersessionRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Session/Database/Migrations/2019_03_13_040831545305_create_session_sessions_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/JobNews/Entities/JobNews.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Session/Entities/Session.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="14" column="69" lean-forward="true" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+        <state relative-caret-position="230">
+          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/User/Http/Controllers/Api/ApiKeysController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://a711d9a4-0695-4e3c-aa0c-25d1aa96dc4c/schema/vantienthanh/table/session__sessions">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/JobNews/Http/Controllers/Admin/JobNewsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="76" column="31" lean-forward="true" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/JobNews/Database/Migrations/2019_03_13_031435024478_create_jobnews_jobnews_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a711d9a4-0695-4e3c-aa0c-25d1aa96dc4c/console.sql" />
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BaseController.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Enterprisesession/Repositories/Eloquent/EloquentEnterprisesessionRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <element signature="e#123#153#0#PHP" expanded="true" />
-          </folding>
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Membercv/Providers/RouteServiceProvider.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Enterprisesession/Repositories/EnterprisesessionRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        <state relative-caret-position="184">
+          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="das://a711d9a4-0695-4e3c-aa0c-25d1aa96dc4c/schema/vantienthanh/table/migrations">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/Modules/JobNews/Repositories/JobNewsRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Membercv/Database/Seeders/MembercvDatabaseSeeder.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Membercv/Entities/Membercv.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-          <folding>
-            <element signature="e#53#84#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/JobNews/Transformers/JobNewsDetailTransformers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Membercv/Transformers/MemberCVTransformers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Membercv/Transformers/MemberCVDetailTransformers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/JobNews/Http/Requests/CreateJobNewsRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Membercv/Http/Requests/CreateMembercvRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Membercv/Http/Controllers/Api/MemberCVController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="44" column="42" lean-forward="true" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
-          <folding>
-            <element signature="e#140#180#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Membercv/Database/Migrations/2019_03_19_104621566375_create_membercv_membercvs_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Profile/Database/Migrations/2019_03_20_022656758827_create_profile_frontendusers_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Membercv/Http/apiRoutes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" selection-start-line="7" selection-end-line="29" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Profile/Providers/RouteServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="35" column="50" lean-forward="true" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/jwt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5861" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/User/Http/Requests/CreateUserRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/User/Http/Requests/LoginRequest.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Profile/Http/Requests/FrontendLoginRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Profile/Http/Requests/CreateFrontendUserRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="184">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Modules/JobNews/Database/Seeders/JobNewsDatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <element signature="e#52#83#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="420">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core.php">
+    <entry file="file://$PROJECT_DIR$/Modules/JobNews/Database/Migrations/2019_03_13_031435024478_create_jobnews_jobnews_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="342" lean-forward="true" selection-start-line="342" selection-end-line="342" />
+        <state relative-caret-position="420">
+          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/dingo/api/src/Http/Response/Factory.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Membercv/Database/Migrations/2019_03_19_104621566375_create_membercv_membercvs_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="125" column="23" lean-forward="true" selection-start-line="125" selection-start-column="23" selection-end-line="125" selection-end-column="23" />
+        <state relative-caret-position="506">
+          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/auth.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Membercv/Database/Seeders/MembercvDatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="395">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/User/Http/Requests/RegisterRequest.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Membersession/Database/Migrations/2019_03_13_041624849448_create_membersession_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="5139" column="28" lean-forward="true" selection-start-line="5139" selection-start-column="28" selection-end-line="5139" selection-end-column="28" />
+        <state relative-caret-position="391">
+          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Profile/Transformers/TokenTransformers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Profile/Transformers/UserInfoTransformers.php">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Profile/Http/Controllers/Api/FrontendUserInfoController.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Membersession/Entities/Membersession.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Membersession/Repositories/Eloquent/EloquentMembersessionRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Profile/Http/Controllers/Admin/FrontendUserInfoController.php">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Modules/Profile/Database/Migrations/2019_03_20_022656758827_create_profile_frontendusers_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Profile/Http/Controllers/Api/FrontendUserController.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -676,94 +587,203 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Membersession/Transformers/MemberSessionTransformers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Membersession/Http/Controllers/Api/MemberSessionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#145#185#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Membersession/Http/apiRoutes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Profile/Database/Migrations/2019_03_20_022657265149_create_profile_frontenduserinfos_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Profile/Entities/FrontendUser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        <state relative-caret-position="418">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding>
             <element signature="e#44#84#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Profile/Database/Seeders/ProfileDatabaseSeeder.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Profile/Config/config.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Profile/Config/permissions.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Profile/Resources/lang/en/frontenduserinfos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="50" column="63" lean-forward="true" selection-start-line="50" selection-start-column="63" selection-end-line="50" selection-end-column="63" />
-          <folding>
-            <element signature="e#52#83#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="207">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Profile/Database/Migrations/2019_03_20_022657265149_create_profile_frontenduserinfos_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Enterprisesession/Entities/Enterprisesession.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Membersession/Entities/MembersessionTranslation.php" />
-    <entry file="file://$PROJECT_DIR$/Modules/Membersession/Database/Migrations/2019_03_13_041624849448_create_membersession_membersessions_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Membersession/Entities/Membersession.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Enterprisesession/Database/Migrations/2019_03_13_041600632556_create_enterprisesession_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Profile/Resources/lang/en/profiles.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/JobNews/Transformers/JobNewsTransformers.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Enterprisesession/Resources/lang/en/enterprisesessions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Enterprisesession/Config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Tag/Events/Handlers/RegisterTagSidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Workshop/Events/Handlers/RegisterWorkshopSidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Translation/Events/Handlers/RegisterTranslationSidebar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/JobNews/Entities/JobNews.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Media/Events/Handlers/RegisterMediaSidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Menu/Events/Handlers/RegisterMenuSidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/User/Events/Handlers/RegisterUserSidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="786">
+          <caret line="50" selection-start-line="50" selection-start-column="2" selection-end-line="65" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Page/Events/Handlers/RegisterPageSidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Profile/Events/Handlers/RegisterProfileSidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="39" column="64" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Adminlte/resources/assets/scss/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Adminlte/resources/assets/scss/asgardcms.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Adminlte/resources/assets/less/Asgard/vars.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Adminlte/resources/assets/less/mixins.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-989">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Adminlte/resources/assets/less/skins/dark/vars.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Adminlte/resources/assets/less/skins/blue/vars.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/JobNews/Repositories/Eloquent/EloquentJobNewsRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Profile/Entities/FrontendUserInfo.php">
+    <entry file="file://$PROJECT_DIR$/Modules/JobNews/Http/Controllers/Api/JobNewsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="391">
+          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding>
+            <element signature="e#139#179#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Modules/JobNews/Http/apiRoutes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="34" />
+        <state relative-caret-position="299">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -774,13 +794,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/JobNews/Http/Controllers/Api/JobNewsController.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Profile/Entities/FrontendUserInfo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding>
-            <element signature="e#139#179#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="322">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Membercv/Http/apiRoutes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="65" lean-forward="true" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
         </state>
       </provider>
     </entry>

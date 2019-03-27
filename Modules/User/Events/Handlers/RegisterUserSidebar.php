@@ -42,23 +42,28 @@ class RegisterUserSidebar extends AbstractAdminSidebar
                     );
                 });
             });
-        });
-        $menu->group(trans('user::users.my account'), function (Group $group) {
-            $group->weight(110);
             $group->item(trans('user::users.profile'), function (Item $item) {
                 $item->weight(0);
                 $item->icon('fa fa-user');
                 $item->route('admin.account.profile.edit');
             });
-            $group->item(trans('user::users.api-keys'), function (Item $item) {
-                $item->weight(1);
-                $item->icon('fa fa-key');
-                $item->route('admin.account.api.index');
-                $item->authorize(
-                    $this->auth->hasAccess('account.api-keys.index')
-                );
-            });
         });
+//        $menu->group(trans('user::users.my account'), function (Group $group) {
+//            $group->weight(110);
+//            $group->item(trans('user::users.profile'), function (Item $item) {
+//                $item->weight(0);
+//                $item->icon('fa fa-user');
+//                $item->route('admin.account.profile.edit');
+//            });
+//            $group->item(trans('user::users.api-keys'), function (Item $item) {
+//                $item->weight(1);
+//                $item->icon('fa fa-key');
+//                $item->route('admin.account.api.index');
+//                $item->authorize(
+//                    $this->auth->hasAccess('account.api-keys.index')
+//                );
+//            });
+//        });
 
         return $menu;
     }

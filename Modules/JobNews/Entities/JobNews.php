@@ -9,7 +9,7 @@ class JobNews extends Model
 {
 //    use Translatable;
 
-    protected $table = 'jobnews__jobnews';
+    protected $table = 'jobNews';
 //    public $translatedAttributes = [];
     protected $fillable = [];
 }

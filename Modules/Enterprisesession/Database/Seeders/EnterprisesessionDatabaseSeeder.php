@@ -3,7 +3,8 @@
 namespace Modules\Enterprisesession\Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use Illuminate\Database\Eloquent\Model;
+use Faker\Factory as Faker;
+use Illuminate\Support\Facades\DB;
 
 class EnterprisesessionDatabaseSeeder extends Seeder
 {
@@ -14,8 +15,20 @@ class EnterprisesessionDatabaseSeeder extends Seeder
      */
     public function run()
     {
-        Model::unguard();
-
-        // $this->call("OthersTableSeeder");
+        DB::table('Enterprise_Sessions')->truncate();
+        $faker = Faker::create();
+        $limit = 30;
+        $arrayFakeData = [];
+        for ($i = 0; $i < $limit; $i++) {
+            $data = [
+                'user_id' => $i,
+                'session_id' => $i,
+                'status' => array_rand(['none','rejected','allow']),
+                'created_at' => date('Y-m-d H:m:s', strtotime("-1 days", time())),
+                'updated_at' => date('Y-m-d H:m:s', strtotime("1 days", time())),
+            ];
+            $arrayFakeData[] = $data;
+        }
+        DB::table('Enterprise_Sessions')->insert($arrayFakeData);
     }
 }

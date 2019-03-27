@@ -8,7 +8,10 @@ class CreateMembersessionRequest extends BaseFormRequest
 {
     public function rules()
     {
-        return [];
+        return [
+            'user_id' => 'required',
+            'enterpriseSession_id'=> 'required'
+        ];
     }
 
     public function translationRules()

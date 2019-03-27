@@ -9,7 +9,7 @@ class FrontendUserInfo extends Model
 {
 //    use Translatable;
 
-    protected $table = 'profile__frontenduserinfos';
+    protected $table = 'profile__frontendUserInfos';
 //    public $translatedAttributes = [];
     protected $fillable = ['name','phoneNumber','email','address','job','jobDetail','educationLevel','birthday','description','user_id'];
 }

@@ -1,3 +1,4 @@
+
 @extends('layouts.master')
 
 @section('content-header')
@@ -5,7 +6,8 @@
         {{ trans('enterprisesession::enterprisesessions.title.enterprisesessions') }}
     </h1>
     <ol class="breadcrumb">
-        <li><a href="{{ route('dashboard.index') }}"><i class="fa fa-dashboard"></i> {{ trans('core::core.breadcrumb.home') }}</a></li>
+        <li><a href="{{ route('dashboard.index') }}"><i
+                        class="fa fa-dashboard"></i> {{ trans('core::core.breadcrumb.home') }}</a></li>
         <li class="active">{{ trans('enterprisesession::enterprisesessions.title.enterprisesessions') }}</li>
     </ol>
 @stop
@@ -15,7 +17,8 @@
         <div class="col-xs-12">
             <div class="row">
                 <div class="btn-group pull-right" style="margin: 0 15px 15px 0;">
-                    <a href="{{ route('admin.enterprisesession.enterprisesession.create') }}" class="btn btn-primary btn-flat" style="padding: 4px 10px;">
+                    <a href="{{ route('admin.enterprisesession.enterprisesession.create') }}"
+                       class="btn btn-primary btn-flat" style="padding: 4px 10px;">
                         <i class="fa fa-pencil"></i> {{ trans('enterprisesession::enterprisesessions.button.create enterprisesession') }}
                     </a>
                 </div>
@@ -30,35 +33,45 @@
                             <thead>
                             <tr>
                                 <th>ID</th>
-                                <th>Title</th>
+                                <th>Name</th>
+                                <th>Status</th>
                                 <th>{{ trans('core::core.table.created at') }}</th>
                                 <th data-sortable="false">{{ trans('core::core.table.actions') }}</th>
                             </tr>
                             </thead>
                             <tbody>
-                            <?php if (isset($sessions)): ?>
-                            <?php foreach ($sessions as $item): ?>
+                            <?php if (isset($detail)): ?>
+                            <?php foreach ($detail as $item): ?>
                             <tr>
                                 <td>
-                                    <a href="{{ route('admin.session.enterprisesession.detail', [$item->id]) }}">
+                                    <a href="{{ route('admin.enterprisesession.enterprisesession.edit', [$item->id]) }}">
                                         {{ $item->id }}
                                     </a>
                                 </td>
                                 <td>
-                                    <a href="{{ route('admin.session.enterprisesession.detail', [$item->id]) }}">
-                                        {{ $item->title }}
+                                    <a href="{{ route('admin.enterprisesession.enterprisesession.edit', [$item->id]) }}">
+                                        {{--{{ $item->id }}--}}test
                                     </a>
                                 </td>
                                 <td>
-                                    <a href="{{ route('admin.session.enterprisesession.detail', [$item->id]) }}">
+                                    <a href="{{ route('admin.enterprisesession.enterprisesession.edit', [$item->id]) }}">
+                                        {{ $item->status }}
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="{{ route('admin.enterprisesession.enterprisesession.edit', [$item->id]) }}">
                                         {{ $item->created_at }}
                                     </a>
                                 </td>
                                 <td>
                                     <div class="btn-group">
-                                        <a href="{{ route('admin.session.enterprisesession.detail', [$item->id]) }}" class="btn btn-default btn-flat"><i class="fa fa-eye
+                                        <a href="{{ route('admin.enterprisesession.enterprisesession.edit', [$item->id]) }}"
+                                           class="btn btn-default btn-flat"><i class="fa fa-pencil
 "></i></a>
-                                        {{--<button class="btn btn-danger btn-flat" data-toggle="modal" data-target="#modal-delete-confirmation" data-action-target="{{ route('admin.enterprisesession.enterprisesession.destroy', [$enterprisesession->id]) }}"><i class="fa fa-trash"></i></button>--}}
+                                        <button class="btn btn-danger btn-flat" data-toggle="modal"
+                                                data-target="#modal-delete-confirmation"
+                                                data-action-target="{{ route('admin.enterprisesession.enterprisesession.destroy', [$item->id]) }}">
+                                            <i class="fa fa-trash"></i></button>
                                     </div>
                                 </td>
                             </tr>
@@ -94,10 +107,10 @@
 
 @push('js-stack')
     <script type="text/javascript">
-        $( document ).ready(function() {
+        $(document).ready(function () {
             $(document).keypressAction({
                 actions: [
-                    { key: 'c', route: "<?= route('admin.enterprisesession.enterprisesession.create') ?>" }
+                    {key: 'c', route: "<?= route('admin.enterprisesession.enterprisesession.create') ?>"}
                 ]
             });
         });
@@ -112,7 +125,7 @@
                 "sort": true,
                 "info": true,
                 "autoWidth": true,
-                "order": [[ 0, "desc" ]],
+                "order": [[0, "desc"]],
                 "language": {
                     "url": '<?php echo Module::asset("core:js/vendor/datatables/{$locale}.json") ?>'
                 }

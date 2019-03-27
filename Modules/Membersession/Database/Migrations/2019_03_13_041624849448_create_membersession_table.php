@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateMembersessionMembersessionsTable extends Migration
+class CreateMembersessionTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,10 +12,12 @@ class CreateMembersessionMembersessionsTable extends Migration
      */
     public function up()
     {
-        Schema::create('membersession__membersessions', function (Blueprint $table) {
+        Schema::create('MemberSession', function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');
-            $table->tinyInteger('member_id');
+            $table->tinyInteger('user_id');
+            $table->tinyInteger('enterpriseSession_id');
+            $table->dateTime('timeInterview');
             $table->timestamps();
         });
     }
@@ -27,6 +29,6 @@ class CreateMembersessionMembersessionsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('membersession__membersessions');
+        Schema::dropIfExists('MemberSession');
     }
 }
