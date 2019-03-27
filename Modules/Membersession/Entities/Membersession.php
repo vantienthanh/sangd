@@ -7,9 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Membersession extends Model
 {
-    use Translatable;
+//    use Translatable;
 
     protected $table = 'membersession__membersessions';
-    public $translatedAttributes = [];
+//    public $translatedAttributes = [];
     protected $fillable = [];
 }
