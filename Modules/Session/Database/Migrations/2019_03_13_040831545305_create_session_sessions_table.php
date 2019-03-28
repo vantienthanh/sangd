@@ -12,7 +12,7 @@ class CreateSessionSessionsTable extends Migration
      */
     public function up()
     {
-        Schema::create('session__sessions', function (Blueprint $table) {
+        Schema::create('sessions', function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');
             $table->string('title');
@@ -30,6 +30,6 @@ class CreateSessionSessionsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('session__sessions');
+        Schema::dropIfExists('sessions');
     }
 }

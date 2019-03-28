@@ -10,11 +10,11 @@ class Session extends Model
 {
 //    use Translatable;
 
-    protected $table = 'session__sessions';
+    protected $table = 'sessions';
 //    public $translatedAttributes = [];
     protected $fillable = ['title','location','startTime','endTime'];
 
     public function enterpriseSession () {
-        return $this->hasMany(Enterprisesession::class, 'id', 'enterprise_id');
+        return $this->hasMany(Enterprisesession::class);
     }
 }
