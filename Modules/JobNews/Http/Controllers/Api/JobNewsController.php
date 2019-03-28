@@ -29,9 +29,9 @@ class JobNewsController extends BaseController
         $this->jobnews = $jobnews;
     }
 
-    public function index(Request $request)
+    public function index()
     {
-        $data = $this->jobnews->getByUserType($request->type);
+        $data = $this->jobnews->paginate('10');
         return $this->response->paginator($data, new JobNewsTransformers)->setStatusCode(200);
     }
 

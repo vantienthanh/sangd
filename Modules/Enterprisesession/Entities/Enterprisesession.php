@@ -17,7 +17,7 @@ class Enterprisesession extends Model
     protected $fillable = ['status','user_id','session_id'];
 
     public function session () {
-        return $this->belongsTo(Session::class, 'user_id', 'id');
+        return $this->belongsTo(Session::class, 'session_id', 'id');
     }
     public function memberSession () {
         return $this->$this->hasMany(Membersession::class,'id','member_id');

@@ -31,7 +31,7 @@ class SessionDatabaseSeeder extends Seeder
             ];
             $arrayFakeData[] = $data;
         }
-        DB::table('session__sessions')->insert($arrayFakeData);
+        DB::table('sessions')->insert($arrayFakeData);
         // $this->call("OthersTableSeeder");
     }
 }

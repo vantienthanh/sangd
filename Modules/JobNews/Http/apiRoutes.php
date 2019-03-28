@@ -7,7 +7,7 @@
  */
 $api = app('Dingo\Api\Routing\Router');
 $api->version('v1', function ($api) {
-    $api->get('/enterprise/job-news/{type}', [
+    $api->get('/enterprise/job-news', [
         'as' => 'enterprise.jobNews.list',
         'uses' => 'Modules\JobNews\Http\Controllers\Api\JobNewsController@index'
     ]);
