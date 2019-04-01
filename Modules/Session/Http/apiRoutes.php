@@ -13,6 +13,10 @@ $api->version('v1', function ($api) {
     ]);
     $api->get('/session/detail/{id}', [
         'as' => 'session.detail',
-        'uses' => 'Modules\Session\Http\Controllers\Api\SessionController@detail'
+        'uses' => 'Modules\Session\Http\Controllers\Api\SessionController@sessionDetail'
+    ]);
+    $api->get('/session/detail/{id}/enterprise', [
+        'as' => 'session.detail.enterprise',
+        'uses' => 'Modules\Session\Http\Controllers\Api\SessionController@detailListEnterprise'
     ]);
 });

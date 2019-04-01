@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22de62b7-91cf-4577-93ec-2fa3a6bbd88c" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/Modules/Session/Transformers/EnterpriseJoinSessionListTransformers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Session/Http/Controllers/Api/SessionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Session/Http/Controllers/Api/SessionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Session/Http/apiRoutes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Session/Http/apiRoutes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Session/Transformers/SessionDetailTransformers.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Session/Transformers/SessionDetailTransformers.php" afterDir="false" />
+>>>>>>> 618fb4480ba3b6f0c46a8a294ad9bbf5db82a57a
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,28 +43,72 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/Modules/Enterprisesession/Http/apiRoutes.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="322">
               <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Modules/Profile/Database/Migrations/2019_03_20_022657265149_create_profile_frontenduserinfos_table.php">
+=======
+        <entry file="file://$PROJECT_DIR$/Modules/Session/Http/Controllers/Api/SessionController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+            <state relative-caret-position="456">
+              <caret line="34" column="33" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="33" />
+              <folding>
+                <element signature="e#142#182#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Enterprisesession/Entities/Enterprisesession.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+>>>>>>> 618fb4480ba3b6f0c46a8a294ad9bbf5db82a57a
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Modules/Profile/Database/Migrations/2019_03_20_022657265149_create_profile_frontenduserinfos_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Enterprisesession/Http/apiRoutes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+>>>>>>> 618fb4480ba3b6f0c46a8a294ad9bbf5db82a57a
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Modules/Membersession/Http/apiRoutes.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
               <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Modules/Enterprisesession/Database/Migrations/2019_03_13_041600632556_create_enterprisesession_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Enterprisesession/Http/Controllers/Api/EnterpriseSessionController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+>>>>>>> 618fb4480ba3b6f0c46a8a294ad9bbf5db82a57a
             </state>
           </provider>
         </entry>
@@ -84,6 +136,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Modules/Enterprisesession/Providers/RouteServiceProvider.php" />
         <option value="$PROJECT_DIR$/Modules/Enterprisesession/Http/apiRoutes.php" />
         <option value="$PROJECT_DIR$/Modules/Enterprisesession/Http/Controllers/Api/EnterpriseSessionController.php" />
@@ -92,6 +145,8 @@
         <option value="$PROJECT_DIR$/Modules/Membersession/Database/Migrations/2019_03_13_041624849448_create_membersession_membersessions_table.php" />
         <option value="$PROJECT_DIR$/Modules/Enterprisesession/Database/Migrations/2019_03_13_041600632556_create_enterprisesession_table.php" />
         <option value="$PROJECT_DIR$/Modules/Membersession/Database/Migrations/2019_03_13_041624849448_create_membersession_table.php" />
+=======
+>>>>>>> 618fb4480ba3b6f0c46a8a294ad9bbf5db82a57a
         <option value="$PROJECT_DIR$/Modules/Enterprisesession/Database/Seeders/EnterprisesessionDatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/Modules/Membersession/Database/Seeders/MembersessionDatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/Modules/Enterprisesession/Resources/views/admin/enterprisesessions/index.blade.php" />
@@ -135,6 +190,23 @@
         <option value="$PROJECT_DIR$/Modules/Page/Events/Handlers/RegisterPageSidebar.php" />
         <option value="$PROJECT_DIR$/Themes/Adminlte/resources/assets/less/skins/dark/vars.less" />
         <option value="$PROJECT_DIR$/Themes/Adminlte/resources/assets/less/skins/blue/vars.less" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/Modules/JobNews/Http/apiRoutes.php" />
+        <option value="$PROJECT_DIR$/Modules/JobNews/Http/Controllers/Api/JobNewsController.php" />
+        <option value="$PROJECT_DIR$/Modules/JobNews/Repositories/Eloquent/EloquentJobNewsRepository.php" />
+        <option value="$PROJECT_DIR$/Modules/Session/Providers/RouteServiceProvider.php" />
+        <option value="$PROJECT_DIR$/Modules/Session/Database/Migrations/2019_03_13_040831545305_create_session_sessions_table.php" />
+        <option value="$PROJECT_DIR$/Modules/Session/Database/Seeders/SessionDatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/Modules/Session/Transformers/ListSessionTransformers.php" />
+        <option value="$PROJECT_DIR$/Modules/Enterprisesession/Entities/Enterprisesession.php" />
+        <option value="$PROJECT_DIR$/Modules/Session/Entities/Session.php" />
+        <option value="$PROJECT_DIR$/Modules/Session/Transformers/SessionDetailTransformers.php" />
+        <option value="$PROJECT_DIR$/Modules/Session/Http/Controllers/Api/SessionController.php" />
+        <option value="$PROJECT_DIR$/Modules/Session/Transformers/EnterpriseJoinSessionListTransformers.php" />
+        <option value="$PROJECT_DIR$/Modules/Session/Http/apiRoutes.php" />
+>>>>>>> 618fb4480ba3b6f0c46a8a294ad9bbf5db82a57a
       </list>
     </option>
   </component>
@@ -309,6 +381,75 @@
               <item name="Database" type="462c0819:PsiDirectoryNode" />
               <item name="Migrations" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="sangd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sangd" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Enterprisesession" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sangd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sangd" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Session" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sangd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sangd" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Session" type="462c0819:PsiDirectoryNode" />
+              <item name="Database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sangd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sangd" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Session" type="462c0819:PsiDirectoryNode" />
+              <item name="Database" type="462c0819:PsiDirectoryNode" />
+              <item name="Migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sangd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sangd" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Session" type="462c0819:PsiDirectoryNode" />
+              <item name="Entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sangd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sangd" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Session" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sangd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sangd" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Session" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sangd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sangd" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Session" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sangd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sangd" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Session" type="462c0819:PsiDirectoryNode" />
+              <item name="Transformers" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> 618fb4480ba3b6f0c46a8a294ad9bbf5db82a57a
           </expand>
           <select />
         </subPane>
@@ -319,7 +460,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../timekeeper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
@@ -373,20 +514,34 @@
       <workItem from="1553225544357" duration="716000" />
       <workItem from="1553252924940" duration="744000" />
       <workItem from="1553500552141" duration="7668000" />
+<<<<<<< HEAD
       <workItem from="1553566347428" duration="25001000" />
       <workItem from="1553742728513" duration="4339000" />
       <workItem from="1553849170345" duration="1050000" />
       <workItem from="1553855629346" duration="645000" />
+=======
+      <workItem from="1553566347428" duration="24354000" />
+      <workItem from="1553944805810" duration="8054000" />
+>>>>>>> 618fb4480ba3b6f0c46a8a294ad9bbf5db82a57a
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="128612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="22" width="1926" height="1036" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2534685" />
+=======
+    <option name="totallyTimeSpent" value="138415000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18981738" />
+>>>>>>> 618fb4480ba3b6f0c46a8a294ad9bbf5db82a57a
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -417,6 +572,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="add backend session form" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Modules/JobNews/Entities/JobNews.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -501,6 +657,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 618fb4480ba3b6f0c46a8a294ad9bbf5db82a57a
     <entry file="file://$PROJECT_DIR$/Modules/Membersession/Entities/Membersession.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -701,10 +859,17 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Modules/Session/Database/Migrations/2019_03_13_040831545305_create_session_sessions_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+=======
+    <entry file="file://$PROJECT_DIR$/Modules/Session/Database/Seeders/SessionDatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+>>>>>>> 618fb4480ba3b6f0c46a8a294ad9bbf5db82a57a
         </state>
       </provider>
     </entry>
@@ -731,6 +896,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Enterprisesession/Repositories/Eloquent/EloquentEnterprisesessionRepository.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="184">
           <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
         </state>
@@ -740,18 +906,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+=======
+        <state relative-caret-position="253">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Session/Entities/Session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Session/Transformers/EnterpriseJoinSessionListTransformers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+>>>>>>> 618fb4480ba3b6f0c46a8a294ad9bbf5db82a57a
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Enterprisesession/Http/Controllers/Admin/EnterprisesessionController.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="322">
           <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+=======
+        <state relative-caret-position="207">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+>>>>>>> 618fb4480ba3b6f0c46a8a294ad9bbf5db82a57a
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Enterprisesession/Http/apiRoutes.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="322">
           <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
         </state>
@@ -768,6 +958,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+=======
+        <state relative-caret-position="456">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="33" />
+          <folding>
+            <element signature="e#142#182#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Session/Database/Migrations/2019_03_13_040831545305_create_session_sessions_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Enterprisesession/Http/Controllers/Api/EnterpriseSessionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Session/Http/apiRoutes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="87" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Enterprisesession/Entities/Enterprisesession.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Enterprisesession/Http/apiRoutes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Enterprisesession/Database/Migrations/2019_03_13_041600632556_create_enterprisesession_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+>>>>>>> 618fb4480ba3b6f0c46a8a294ad9bbf5db82a57a
         </state>
       </provider>
     </entry>
