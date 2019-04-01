@@ -13,12 +13,13 @@ use League\Fractal\TransformerAbstract;
 
 class SessionDetailTransformers extends TransformerAbstract
 {
-public function transform ($data) {
-    return [
-    "title" => $data->id,
-        "location" => $data->location,
-        "startTime" => $data->startTime,
-        "endTime" => $data->endTime
-    ];
-}
+    public function transform($data)
+    {
+        return [
+            "title" => $data->title,
+            "location" => $data->location,
+            "startTime" => $data->startTime,
+            "endTime" => $data->endTime,
+        ];
+    }
 }
