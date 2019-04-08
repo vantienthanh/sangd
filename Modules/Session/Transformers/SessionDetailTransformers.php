@@ -16,10 +16,11 @@ class SessionDetailTransformers extends TransformerAbstract
     public function transform($data)
     {
         return [
-            "title" => $data->title,
-            "location" => $data->location,
-            "startTime" => $data->startTime,
-            "endTime" => $data->endTime,
+            "title" => $data->session->title,
+            "location" => $data->session->location,
+            "startTime" => $data->session->startTime,
+            "endTime" => $data->session->endTime,
+            "userStatus" => $data->eSession ? $data->eSession->status : null
         ];
     }
 }

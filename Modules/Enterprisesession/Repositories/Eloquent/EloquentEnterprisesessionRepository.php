@@ -10,4 +10,7 @@ class EloquentEnterprisesessionRepository extends EloquentBaseRepository impleme
     public function getByEnterpriseID ($id) {
         return $this->model->where('enterpriseSession_id', $id)->get();
     }
+    public function getUserJoinSessionStatus ($user_id) {
+        return $this->model->where('user_id', $user_id)->first();
+    }
 }

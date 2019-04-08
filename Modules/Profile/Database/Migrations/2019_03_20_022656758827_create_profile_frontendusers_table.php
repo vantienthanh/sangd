@@ -15,10 +15,11 @@ class CreateProfileFrontendUsersTable extends Migration
         Schema::create('profile__frontendUsers', function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');
-            // Your
             $table->string('username');
             $table->string('password');
             $table->string('role');
+            $table->string('avatar');
+            $table->string('email');
             $table->timestamps();
         });
     }

@@ -17,6 +17,7 @@ class CreateProfileFrontendUserInfosTable extends Migration
             $table->increments('id');
             // Your fields
             $table->string('name');
+            $table->string('avatar');
             $table->string('phoneNumber');
             $table->string('email');
             $table->string('address');
