@@ -17,14 +17,10 @@ class CreateProfileFrontendUserInfosTable extends Migration
             $table->increments('id');
             // Your fields
             $table->string('name');
-            $table->string('phoneNumber');
+            $table->string('avatar');
             $table->string('email');
-            $table->string('address');
-            $table->string('job');
-            $table->string('jobDetail');
-            $table->string('educationLevel');
             $table->string('birthday');
-            $table->string('description');
+            $table->string('cv');
             $table->tinyInteger('user_id');
             $table->timestamps();
         });

@@ -16,8 +16,10 @@ class UserInfoTransformers extends TransformerAbstract
  public function transform ($data) {
      return [
          'id' => $data->id,
-         'username' => $data->username,
-         'role' => $data->role
+         'name' => $data->name,
+         'avatar' => $data->avatar,
+         'email' => $data->email,
+         'cv' => $data->cv,
      ];
  }
 }

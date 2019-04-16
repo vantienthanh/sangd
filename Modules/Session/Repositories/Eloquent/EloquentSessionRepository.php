@@ -7,4 +7,5 @@ use Modules\Core\Repositories\Eloquent\EloquentBaseRepository;
 
 class EloquentSessionRepository extends EloquentBaseRepository implements SessionRepository
 {
+
 }

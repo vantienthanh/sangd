@@ -40,14 +40,10 @@ class ProfileDatabaseSeeder extends Seeder
         for ($i = 0; $i < $limit; $i++) {
             $data = [
                 'name' => $faker->name,
-                'phoneNumber' => $faker->phoneNumber,
                 'email' => $faker->email,
-                'address' => $faker->address,
-                'birthday' => $faker->dateTime,
-                'jobDetail' => $faker->jobTitle,
-                'educationLevel' => rand(1,4),
+                'avatar' => $faker->image(),
+                'cv' => 'cv',
                 'user_id' => $i,
-                'description' => $faker->text,
                 'created_at' => date('Y-m-d H:m:s', strtotime("-1 days", time())),
                 'updated_at' => date('Y-m-d H:m:s', strtotime("1 days", time())),
             ];

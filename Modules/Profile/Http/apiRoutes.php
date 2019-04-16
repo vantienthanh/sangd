@@ -15,8 +15,12 @@ $api->version('v1', function ($api) {
         'as' => 'profile.user.register',
         'uses' => 'Modules\Profile\Http\Controllers\Api\FrontendUserController@register'
     ]);
-//    $api->get('/user/{id}', [
-//        'as' => 'profile.user.info',
-//        'uses' => 'Modules\Profile\Http\Controllers\Api\FrontendUserController@getAuthenticatedUser'
-//    ]);
+    $api->get('/user/{id}', [
+        'as' => 'profile.user.info',
+        'uses' => 'Modules\Profile\Http\Controllers\Api\FrontendUserInfoController@getInfo'
+    ]);
+    $api->post('/profile', [
+       'as' => 'profile.update',
+       'uses' => 'Modules\Profile\Http\Controllers\Api\FrontendUserInfoController@updateInfo'
+    ]);
 });

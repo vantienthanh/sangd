@@ -30,6 +30,11 @@ class MemberCVController extends BaseController
         return $this->response->paginator($data, new MemberCVTransformers)->setStatusCode(200);
     }
 
+    public function getByUserID (Request $request) {
+       $data = $this->memberCV->byID($request->id);
+       return $this->response->item($data, new MemberCVTransformers);
+    }
+
     public function detail (Request $request) {
         $data = $this->memberCV->find($request->id);
         return $this->response->item($data, new JobNewsDetailTransformers)->setStatusCode(200);

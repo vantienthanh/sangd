@@ -11,6 +11,10 @@ $api->version('v1', function ($api) {
         'as' => 'member.list-cv.index',
         'uses' => 'Modules\Membercv\Http\Controllers\Api\MemberCVController@index'
     ]);
+    $api->get('/member/list-cv/find-by-id/{id}', [
+        'as' => 'member.list-cv.index',
+        'uses' => 'Modules\Membercv\Http\Controllers\Api\MemberCVController@getByUserID'
+    ]);
     $api->get('/member/list-cv/{id}', [
         'as' => 'member.list-cv.detail',
         'uses' => 'Modules\Membercv\Http\Controllers\Api\MemberCVController@detail'

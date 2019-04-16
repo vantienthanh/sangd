@@ -11,7 +11,7 @@ $api->version('v1', function ($api) {
         'as' => 'session.list',
         'uses' => 'Modules\Session\Http\Controllers\Api\SessionController@getList'
     ]);
-    $api->get('/session/detail/{id}', [
+    $api->post('/session/detail', [
         'as' => 'session.detail',
         'uses' => 'Modules\Session\Http\Controllers\Api\SessionController@sessionDetail'
     ]);
