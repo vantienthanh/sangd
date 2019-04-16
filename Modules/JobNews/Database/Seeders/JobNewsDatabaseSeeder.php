@@ -22,7 +22,6 @@ class JobNewsDatabaseSeeder extends Seeder
             $data = [
                 'title' => $faker->text,
                 'salary' => rand(1000,10000),
-                'amount' => rand(1000,10000),
                 'user_id' => rand(1,10),
                 'description' => $faker->text,
                 'startTime' => date('Y-m-d H:m:s', strtotime("-1 days", time())),

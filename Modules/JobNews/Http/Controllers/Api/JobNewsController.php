@@ -39,7 +39,10 @@ class JobNewsController extends BaseController
         $data = $this->jobnews->find($request->id);
         return $this->response->item($data, new JobNewsDetailTransformers)->setStatusCode(200);
     }
-
+    public function findByUserID (Request $request) {
+        $data = $this->jobnews->getByUserID($request->id);
+        return $this->response->collection($data, new JobNewsTransformers);
+    }
     public function create (CreateJobNewsRequest $request) {
         $this->jobnews->create($request->all());
         return $this->withCustomSuccess();

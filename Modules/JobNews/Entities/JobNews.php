@@ -11,5 +11,5 @@ class JobNews extends Model
 
     protected $table = 'jobNews';
 //    public $translatedAttributes = [];
-    protected $fillable = [];
+    protected $fillable = ['title','benefit','salary','user_id','description','workingTime','startTime','endTime'];
 }

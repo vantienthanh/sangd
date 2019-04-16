@@ -11,6 +11,7 @@ namespace Modules\Profile\Http\Controllers\Api;
 
 use App\Http\Controllers\BaseController;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 use Modules\Profile\Entities\FrontendUserInfo;
 use Modules\Profile\Repositories\FrontendUserInfoRepository;
 use Modules\Profile\Transformers\UserInfoTransformers;
@@ -31,12 +32,11 @@ class FrontendUserInfoController extends BaseController
         return response()->json(['error' => 'No data'], 200);
     }
     public function updateInfo(FrontendUserInfo $frontendUserInfo, Request $request) {
-        dd($request->all());
-        $data = $this->userInfo->find($request->id);
+        $data = $this->userInfo->find($request->user_id);
         $fileUpload = $request->all();
-        if ($request->hasFile($request->cv)) {
+        if ($request->file('cv')) {
             $uploadedFile = $request->file('cv');
-            $filename = $uploadedFile->getClientOriginalName();
+            $filename = 'assets/user/cv/'.$uploadedFile->getClientOriginalName();
             Storage::disk('local')->putFileAs(
                 'public/assets/user/cv/',
                 $uploadedFile,
@@ -44,9 +44,9 @@ class FrontendUserInfoController extends BaseController
             );
             $fileUpload['cv'] = $filename;
         }
-        if ($request->hasFile($request->avatar)) {
+        if ($request->file('avatar')) {
             $uploadedFile = $request->file('avatar');
-            $filename = $uploadedFile->getClientOriginalName();
+            $filename = 'assets/user/avatar/'.$uploadedFile->getClientOriginalName();
             Storage::disk('local')->putFileAs(
                 'public/assets/user/avatar/',
                 $uploadedFile,
@@ -56,7 +56,7 @@ class FrontendUserInfoController extends BaseController
         }
         if (isset($data)) {
             //update
-            $this->userInfo->update($frontendUserInfo, $fileUpload);
+            $this->userInfo->update($frontendUserInfo->where('user_id',$request->user_id), $fileUpload);
         } else {
             //create
             $this->userInfo->create($fileUpload);

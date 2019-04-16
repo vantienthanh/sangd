@@ -14,9 +14,6 @@ class CreateJobNewsRequest extends BaseFormRequest
             'benefit' => 'required',
             'user_id' =>'required',
             'description' => 'required',
-            'startTime' => 'required',
-            'endTime' => 'required',
-            'amount' => 'required',
             ];
     }
 

@@ -10,4 +10,7 @@ class EloquentJobNewsRepository extends EloquentBaseRepository implements JobNew
     public function getByUserType ($type) {
         return $this->model->where('type', $type)->paginate('10');
     }
+    public function getByUserID ($id) {
+        return $this->model->where('user_id', $id)->get();
+    }
 }

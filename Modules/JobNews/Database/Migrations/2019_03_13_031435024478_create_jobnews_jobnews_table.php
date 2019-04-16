@@ -20,9 +20,9 @@ class CreateJobNewsJobNewsTable extends Migration
             $table->string('salary');
             $table->tinyInteger('user_id');
             $table->text('description');
+            $table->string('workingTime');
             $table->timestamp('startTime');
             $table->timestamp('endTime');
-            $table->integer('amount');
             $table->timestamps();
         });
     }
