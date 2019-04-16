@@ -15,7 +15,9 @@ class MemberCVTransformers extends TransformerAbstract
 {
     public function transform ($data) {
         return[
-
+            'title' => $data->title,
+            'location' => $data->location,
+            'description' => $data->description
         ];
     }
 }

@@ -19,4 +19,8 @@ $api->version('v1', function ($api) {
         'as' => 'profile.user.info',
         'uses' => 'Modules\Profile\Http\Controllers\Api\FrontendUserInfoController@getInfo'
     ]);
+    $api->post('/profile', [
+       'as' => 'profile.update',
+       'uses' => 'Modules\Profile\Http\Controllers\Api\FrontendUserInfoController@updateInfo'
+    ]);
 });

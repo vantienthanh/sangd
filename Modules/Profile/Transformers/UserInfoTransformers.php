@@ -19,8 +19,7 @@ class UserInfoTransformers extends TransformerAbstract
          'name' => $data->name,
          'avatar' => $data->avatar,
          'email' => $data->email,
-         'address' => $data->address,
-         'description' => $data->description,
+         'cv' => $data->cv,
      ];
  }
 }

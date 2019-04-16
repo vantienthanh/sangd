@@ -14,9 +14,11 @@ use League\Fractal\TransformerAbstract;
 class EnterpriseJoinSessionListTransformers extends TransformerAbstract
 {
     public function transform ($data) {
-        dd($data->user);
+//        dd($data->user);
         return  [
-            'username' => $data->user->username
+            'username' => $data->user->username,
+            'id' => $data->id,
+
         ];
     }
 

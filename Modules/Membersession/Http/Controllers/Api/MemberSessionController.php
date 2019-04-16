@@ -26,6 +26,7 @@ class MemberSessionController extends BaseController
 
     public function create(CreateMembersessionRequest $request)
     {
+//        dd($request->all());
         $this->memberSession->create($request->all());
         return $this->withCustomSuccess();
     }
