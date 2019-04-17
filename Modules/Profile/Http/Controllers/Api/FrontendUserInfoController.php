@@ -36,23 +36,23 @@ class FrontendUserInfoController extends BaseController
         $fileUpload = $request->all();
         if ($request->file('cv')) {
             $uploadedFile = $request->file('cv');
-            $filename = 'assets/user/cv/'.$uploadedFile->getClientOriginalName();
+            $filename = $uploadedFile->getClientOriginalName();
             Storage::disk('local')->putFileAs(
                 'public/assets/user/cv/',
                 $uploadedFile,
                 $filename
             );
-            $fileUpload['cv'] = $filename;
+            $fileUpload['cv'] = 'assets/user/cv/'.$filename;
         }
         if ($request->file('avatar')) {
             $uploadedFile = $request->file('avatar');
-            $filename = 'assets/user/avatar/'.$uploadedFile->getClientOriginalName();
+            $filename = $uploadedFile->getClientOriginalName();
             Storage::disk('local')->putFileAs(
                 'public/assets/user/avatar/',
                 $uploadedFile,
                 $filename
             );
-            $fileUpload['avatar'] = $filename;
+            $fileUpload['avatar'] = 'assets/user/avatar/'.$filename;
         }
         if (isset($data)) {
             //update

@@ -14,6 +14,7 @@ use Illuminate\Http\Request;
 use Modules\Membercv\Entities\Membercv;
 use Modules\Membercv\Http\Requests\CreateMembercvRequest;
 use Modules\Membercv\Repositories\MembercvRepository;
+use Modules\Membercv\Transformers\MemberCVDetailTransformers;
 use Modules\Membercv\Transformers\MemberCVTransformers;
 
 class MemberCVController extends BaseController
@@ -32,12 +33,12 @@ class MemberCVController extends BaseController
 
     public function getByUserID (Request $request) {
        $data = $this->memberCV->byID($request->id);
-       return $this->response->item($data, new MemberCVTransformers);
+       return $this->response->collection($data, new MemberCVTransformers)->setStatusCode(200);
     }
 
     public function detail (Request $request) {
         $data = $this->memberCV->find($request->id);
-        return $this->response->item($data, new JobNewsDetailTransformers)->setStatusCode(200);
+        return $this->response->item($data, new MemberCVTransformers)->setStatusCode(200);
     }
 
     public function create (CreateMembercvRequest $request) {
@@ -46,7 +47,7 @@ class MemberCVController extends BaseController
     }
 
     public function update (Membercv $membercv, CreateMembercvRequest $request) {
-        $this->memberCV->update($membercv, $request->all());
+        $this->memberCV->update($membercv->where('id', $request->id), $request->all());
         return $this->withCustomSuccess();
 
     }

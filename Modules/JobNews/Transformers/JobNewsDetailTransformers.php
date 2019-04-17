@@ -22,6 +22,7 @@ class JobNewsDetailTransformers extends TransformerAbstract
             'description' => $data->description,
             'startTime' => $data->startTime,
             'endTime' => $data->endTime,
+            'workingTime' => $data->workingTime,
             'amount' => $data->amount,
             'benefit' => $data->benefit,
             'created_at' => $data->created_at

@@ -11,5 +11,5 @@ class Membercv extends Model
 
     protected $table = 'memberCV';
 //    public $translatedAttributes = [];
-    protected $fillable = [];
+    protected $fillable = ['title','location','job','workingTime','description','user_id'];
 }

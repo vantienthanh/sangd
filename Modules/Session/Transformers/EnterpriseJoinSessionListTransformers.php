@@ -14,12 +14,12 @@ use League\Fractal\TransformerAbstract;
 class EnterpriseJoinSessionListTransformers extends TransformerAbstract
 {
     public function transform ($data) {
-//        dd($data->user);
         return  [
             'username' => $data->user->username,
             'id' => $data->id,
-
+            'avatar' => isset($data->user->info) ? url('/').'/'.$data->user->info->avatar: null,
+            'enterpriseName' => isset($data->user->info) ? $data->user->info->name: null,
+            'numberUserJoin' => count($data->memberSession)
         ];
     }
-
 }

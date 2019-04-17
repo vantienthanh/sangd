@@ -18,7 +18,8 @@ class JobNewsTransformers extends TransformerAbstract
             'id' => $data->id,
             'title' => $data->title,
             'salary' => $data->salary,
-            'created_at' => $data->created_at
+            'created_at' => $data->created_at,
+            'avatar' => isset($data->user) ? url('/').'/'.$data->user->info->avatar: null
         ];
     }
 }

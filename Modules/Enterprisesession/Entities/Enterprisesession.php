@@ -20,7 +20,7 @@ class Enterprisesession extends Model
         return $this->belongsTo(Session::class, 'session_id', 'id');
     }
     public function memberSession () {
-        return $this->$this->hasMany(Membersession::class,'id','member_id');
+        return $this->hasMany(Membersession::class,'id','member_id');
     }
     public function user () {
         return $this->belongsTo(FrontendUser::class, 'user_id', 'id');

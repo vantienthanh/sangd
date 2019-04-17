@@ -12,11 +12,8 @@ class CreateMembercvRequest extends BaseFormRequest
             'title' => 'required',
             'location' => 'required',
             'job' => 'required',
-            'jobDetail' => 'required',
-            'position' => 'required',
             'workingTime' => 'required',
             'description' => 'required',
-            'startTime' => 'required',
         ];
     }
 

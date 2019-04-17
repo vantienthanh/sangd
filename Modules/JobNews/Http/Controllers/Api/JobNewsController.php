@@ -48,7 +48,7 @@ class JobNewsController extends BaseController
         return $this->withCustomSuccess();
     }
     public function update (JobNews $jobnews, CreateJobNewsRequest $request) {
-        $this->jobnews->update($jobnews, $request->all());
+        $this->jobnews->update($jobnews->where('id',$request->id), $request->all());
         return $this->withCustomSuccess();
 
     }

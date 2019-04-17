@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22de62b7-91cf-4577-93ec-2fa3a6bbd88c" name="Default Changelist" comment="" />
+    <list default="true" id="22de62b7-91cf-4577-93ec-2fa3a6bbd88c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Enterprisesession/Entities/Enterprisesession.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Enterprisesession/Entities/Enterprisesession.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JobNews/Entities/JobNews.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JobNews/Entities/JobNews.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JobNews/Http/Controllers/Api/JobNewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JobNews/Http/Controllers/Api/JobNewsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JobNews/Transformers/JobNewsDetailTransformers.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JobNews/Transformers/JobNewsDetailTransformers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/JobNews/Transformers/JobNewsTransformers.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JobNews/Transformers/JobNewsTransformers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Membercv/Entities/Membercv.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Membercv/Entities/Membercv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Membercv/Http/Controllers/Api/MemberCVController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Membercv/Http/Controllers/Api/MemberCVController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Membercv/Http/Requests/CreateMembercvRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Membercv/Http/Requests/CreateMembercvRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Membercv/Transformers/MemberCVTransformers.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Membercv/Transformers/MemberCVTransformers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Profile/Http/Controllers/Api/FrontendUserInfoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Profile/Http/Controllers/Api/FrontendUserInfoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Session/Http/Controllers/Api/SessionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Session/Http/Controllers/Api/SessionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Session/Transformers/EnterpriseJoinSessionListTransformers.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Session/Transformers/EnterpriseJoinSessionListTransformers.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,64 +47,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/Profile/Http/apiRoutes.php">
+        <entry file="file://$PROJECT_DIR$/Modules/Session/Http/apiRoutes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            <state relative-caret-position="437">
+              <caret line="19" column="94" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="94" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/JobNews/Http/apiRoutes.php">
+        <entry file="file://$PROJECT_DIR$/Modules/Session/Http/Controllers/Api/SessionController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="52" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="52" />
+            <state relative-caret-position="604">
+              <caret line="47" column="70" selection-start-line="47" selection-start-column="70" selection-end-line="47" selection-end-column="70" />
+              <folding>
+                <element signature="e#142#182#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/JobNews/Http/Controllers/Api/JobNewsController.php">
+        <entry file="file://$PROJECT_DIR$/Modules/Enterprisesession/Entities/Enterprisesession.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/JobNews/Repositories/Eloquent/EloquentJobNewsRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="414">
+              <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/assets/user/.gitignore">
+        <entry file="file://$PROJECT_DIR$/Modules/Session/Transformers/EnterpriseJoinSessionListTransformers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="460">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/JobNews/Transformers/JobNewsTransformers.php">
+        <entry file="file://$PROJECT_DIR$/Modules/Membercv/Transformers/MemberCVTransformers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/JobNews/Entities/JobNews.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="13" column="115" selection-start-line="13" selection-start-column="115" selection-end-line="13" selection-end-column="115" />
+            <state relative-caret-position="460">
+              <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -119,24 +118,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Modules/Profile/Resources/lang/en/profiles.php" />
-        <option value="$PROJECT_DIR$/Modules/Workshop/Events/Handlers/RegisterWorkshopSidebar.php" />
-        <option value="$PROJECT_DIR$/Modules/Tag/Events/Handlers/RegisterTagSidebar.php" />
-        <option value="$PROJECT_DIR$/Modules/Translation/Events/Handlers/RegisterTranslationSidebar.php" />
-        <option value="$PROJECT_DIR$/Modules/User/Events/Handlers/RegisterUserSidebar.php" />
         <option value="$PROJECT_DIR$/Modules/Menu/Events/Handlers/RegisterMenuSidebar.php" />
         <option value="$PROJECT_DIR$/Modules/Media/Events/Handlers/RegisterMediaSidebar.php" />
         <option value="$PROJECT_DIR$/Modules/Page/Events/Handlers/RegisterPageSidebar.php" />
         <option value="$PROJECT_DIR$/Themes/Adminlte/resources/assets/less/skins/dark/vars.less" />
         <option value="$PROJECT_DIR$/Themes/Adminlte/resources/assets/less/skins/blue/vars.less" />
         <option value="$PROJECT_DIR$/Modules/JobNews/Http/apiRoutes.php" />
-        <option value="$PROJECT_DIR$/Modules/JobNews/Http/Controllers/Api/JobNewsController.php" />
         <option value="$PROJECT_DIR$/Modules/JobNews/Repositories/Eloquent/EloquentJobNewsRepository.php" />
         <option value="$PROJECT_DIR$/Modules/Session/Providers/RouteServiceProvider.php" />
         <option value="$PROJECT_DIR$/Modules/Session/Database/Migrations/2019_03_13_040831545305_create_session_sessions_table.php" />
         <option value="$PROJECT_DIR$/Modules/Session/Database/Seeders/SessionDatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/Modules/Session/Transformers/ListSessionTransformers.php" />
-        <option value="$PROJECT_DIR$/Modules/Enterprisesession/Entities/Enterprisesession.php" />
         <option value="$PROJECT_DIR$/Modules/Session/Entities/Session.php" />
         <option value="$PROJECT_DIR$/Modules/Session/Repositories/Eloquent/EloquentSessionRepository.php" />
         <option value="$PROJECT_DIR$/Modules/Enterprisesession/Repositories/EnterprisesessionRepository.php" />
@@ -159,17 +151,24 @@
         <option value="$PROJECT_DIR$/Modules/Membercv/Repositories/Eloquent/EloquentMembercvRepository.php" />
         <option value="$PROJECT_DIR$/Modules/Membercv/Repositories/MembercvRepository.php" />
         <option value="$PROJECT_DIR$/Modules/Membercv/Http/apiRoutes.php" />
-        <option value="$PROJECT_DIR$/Modules/Membercv/Http/Controllers/Api/MemberCVController.php" />
-        <option value="$PROJECT_DIR$/Modules/Membercv/Transformers/MemberCVTransformers.php" />
-        <option value="$PROJECT_DIR$/Modules/Session/Http/Controllers/Api/SessionController.php" />
-        <option value="$PROJECT_DIR$/Modules/Session/Transformers/EnterpriseJoinSessionListTransformers.php" />
         <option value="$PROJECT_DIR$/Modules/Membersession/Http/Controllers/Api/MemberSessionController.php" />
         <option value="$PROJECT_DIR$/Modules/Profile/Database/Migrations/2019_03_20_022657265149_create_profile_frontenduserinfos_table.php" />
         <option value="$PROJECT_DIR$/Modules/Profile/Http/apiRoutes.php" />
-        <option value="$PROJECT_DIR$/Modules/Profile/Http/Controllers/Api/FrontendUserInfoController.php" />
         <option value="$PROJECT_DIR$/Modules/Profile/Transformers/UserInfoTransformers.php" />
         <option value="$PROJECT_DIR$/Modules/Profile/Database/Migrations/2019_03_20_022656758827_create_profile_frontendusers_table.php" />
         <option value="$PROJECT_DIR$/Modules/Profile/Database/Seeders/ProfileDatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/Modules/JobNews/Transformers/JobNewsDetailTransformers.php" />
+        <option value="$PROJECT_DIR$/Modules/JobNews/Http/Controllers/Api/JobNewsController.php" />
+        <option value="$PROJECT_DIR$/Modules/Membercv/Http/Requests/CreateMembercvRequest.php" />
+        <option value="$PROJECT_DIR$/Modules/Membercv/Entities/Membercv.php" />
+        <option value="$PROJECT_DIR$/Modules/Membercv/Http/Controllers/Api/MemberCVController.php" />
+        <option value="$PROJECT_DIR$/Modules/JobNews/Entities/JobNews.php" />
+        <option value="$PROJECT_DIR$/Modules/JobNews/Transformers/JobNewsTransformers.php" />
+        <option value="$PROJECT_DIR$/Modules/Profile/Http/Controllers/Api/FrontendUserInfoController.php" />
+        <option value="$PROJECT_DIR$/Modules/Membercv/Transformers/MemberCVTransformers.php" />
+        <option value="$PROJECT_DIR$/Modules/Enterprisesession/Entities/Enterprisesession.php" />
+        <option value="$PROJECT_DIR$/Modules/Session/Http/Controllers/Api/SessionController.php" />
+        <option value="$PROJECT_DIR$/Modules/Session/Transformers/EnterpriseJoinSessionListTransformers.php" />
       </list>
     </option>
   </component>
@@ -298,7 +297,7 @@
       <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="67" />
     <option name="y" value="25" />
     <option name="width" value="1853" />
@@ -310,23 +309,79 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="sangd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sangd" type="462c0819:PsiDirectoryNode" />
+              <item name="vantienthanh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vantienthanh" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sangd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sangd" type="462c0819:PsiDirectoryNode" />
+              <item name="vantienthanh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vantienthanh" type="462c0819:PsiDirectoryNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vantienthanh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vantienthanh" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Enterprisesession" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vantienthanh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vantienthanh" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Enterprisesession" type="462c0819:PsiDirectoryNode" />
+              <item name="Entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vantienthanh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vantienthanh" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Membercv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vantienthanh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vantienthanh" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Membercv" type="462c0819:PsiDirectoryNode" />
+              <item name="Transformers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vantienthanh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vantienthanh" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Session" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vantienthanh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vantienthanh" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Session" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vantienthanh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vantienthanh" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Session" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vantienthanh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vantienthanh" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Session" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Api" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -406,17 +461,18 @@
       <workItem from="1555420629545" duration="146000" />
       <workItem from="1555420776892" duration="140000" />
       <workItem from="1555420918005" duration="1670000" />
+      <workItem from="1555481447773" duration="13532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173034000" />
+    <option name="totallyTimeSpent" value="188063000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="22" width="1926" height="1036" extended-state="6" />
+    <frame x="-3" y="22" width="1926" height="1036" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20117396" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20330843" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -447,78 +503,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add backend session form" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Modules/Session/Resources/lang/en/sessions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" lean-forward="true" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Core/Providers/AsgardServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Core/Providers/AssetServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Core/Providers/EventServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Core/Providers/CoreServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="53" column="45" lean-forward="true" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Core/Config/tinh-thanh.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Enterprisesession/Resources/lang/en/enterprisesessions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="19" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Session/Resources/lang/vi/sessions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Session/Resources/views/admin/sessions/partials/create-fields.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Blog/Resources/lang/vi/blog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Blog/Resources/lang/vi/button.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Session/Http/Controllers/Admin/SessionController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="67" column="63" selection-start-line="67" selection-start-column="63" selection-end-line="67" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Blog/Resources/lang/vi/category.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
@@ -609,69 +593,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Membercv/Repositories/MembercvRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Membercv/Repositories/Eloquent/EloquentMembercvRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Membercv/Database/Migrations/2019_03_19_104621566375_create_membercv_membercvs_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Membercv/Http/Controllers/Api/MemberCVController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="34" column="69" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Membercv/Transformers/MemberCVTransformers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Membercv/Http/apiRoutes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Blog/Http/apiRoutes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Session/Transformers/EnterpriseJoinSessionListTransformers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Session/Http/Controllers/Api/SessionController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <element signature="e#142#182#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -695,13 +620,6 @@
     <entry file="file://$PROJECT_DIR$/Modules/Enterprisesession/Database/Migrations/2019_03_13_041600632556_create_enterprisesession_table.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Enterprisesession/Http/apiRoutes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="101" lean-forward="true" selection-start-line="12" selection-start-column="101" selection-end-line="12" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Membersession/Http/apiRoutes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -713,13 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="30" column="42" lean-forward="true" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Session/Http/apiRoutes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -737,30 +648,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Profile/Http/Controllers/Api/FrontendUserInfoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Profile/Http/apiRoutes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="93" selection-start-line="23" selection-start-column="93" selection-end-line="23" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/user/avatar/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/user/cv/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/user/avatar/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/public/assets/user/cv/.gitignore" />
     <entry file="file://$PROJECT_DIR$/Modules/Profile/Database/Seeders/ProfileDatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -768,10 +657,177 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/JobNews/Transformers/JobNewsDetailTransformers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/user/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/JobNews/Repositories/Eloquent/EloquentJobNewsRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/JobNews/Http/Controllers/Api/JobNewsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/JobNews/Http/apiRoutes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" column="80" selection-start-line="32" selection-start-column="80" selection-end-line="32" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Membercv/Entities/Membercv.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="13" column="91" lean-forward="true" selection-start-line="13" selection-start-column="91" selection-end-line="13" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Membercv/Database/Migrations/2019_03_19_104621566375_create_membercv_membercvs_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Membercv/Repositories/Eloquent/EloquentMembercvRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="10" column="58" lean-forward="true" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Membercv/Repositories/MembercvRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Membercv/Http/Requests/CreateMembercvRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Membercv/Transformers/MemberCVDetailTransformers.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Profile/Transformers/UserInfoTransformers.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Membercv/Http/Controllers/Api/MemberCVController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694">
+          <caret line="48" column="61" selection-start-line="48" selection-start-column="61" selection-end-line="48" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Profile/Http/Controllers/Api/FrontendUserInfoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="43" column="14" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/JobNews/Transformers/JobNewsTransformers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/JobNews/Entities/JobNews.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="17" column="66" lean-forward="true" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Profile/Entities/FrontendUser.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Membercv/Http/apiRoutes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Profile/Http/apiRoutes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Enterprisesession/Http/apiRoutes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="101" lean-forward="true" selection-start-line="12" selection-start-column="101" selection-end-line="12" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Session/Http/apiRoutes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="94" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Membercv/Transformers/MemberCVTransformers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Enterprisesession/Entities/Enterprisesession.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Session/Http/Controllers/Api/SessionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="47" column="70" selection-start-line="47" selection-start-column="70" selection-end-line="47" selection-end-column="70" />
+          <folding>
+            <element signature="e#142#182#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Session/Transformers/EnterpriseJoinSessionListTransformers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>

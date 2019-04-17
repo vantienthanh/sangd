@@ -46,7 +46,6 @@ class SessionController extends BaseController
     public function detailListEnterprise(Request $request)
     {
         $data = $this->session->find($request->id)->enterpriseSession;
-//        dd($data);
         return $this->response->collection($data, new EnterpriseJoinSessionListTransformers);
     }
 }

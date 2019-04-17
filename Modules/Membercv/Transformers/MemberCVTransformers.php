@@ -15,9 +15,14 @@ class MemberCVTransformers extends TransformerAbstract
 {
     public function transform ($data) {
         return[
+            'id' => $data->id,
             'title' => $data->title,
             'location' => $data->location,
-            'description' => $data->description
+            'description' => $data->description,
+            'created_at' => $data->created_at,
+            'job' => $data->job,
+            'workingTime' => $data->workingTime,
+            'avatar' => isset($data->user) ? url('/').'/'.$data->user->info->avatar: null
         ];
     }
 }
