@@ -14,7 +14,7 @@ class Enterprisesession extends Model
 
     protected $table = 'Enterprise_Sessions';
 //    public $translatedAttributes = [];
-    protected $fillable = ['status','user_id','session_id'];
+    protected $fillable = ['status','user_id','session_id','jobNews_id'];
 
     public function session () {
         return $this->belongsTo(Session::class, 'session_id', 'id');
