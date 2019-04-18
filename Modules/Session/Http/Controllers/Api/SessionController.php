@@ -39,7 +39,7 @@ class SessionController extends BaseController
     {
         $data = new \stdClass();
         $data->session = $this->session->find($request->id);
-        $data->eSession = $this->enterprisesession->getUserJoinSessionStatus($request->user_id);
+        $data->eSession = $this->enterprisesession->getUserJoinSessionStatus($request->user_id, $request->id);
         return $this->response->item($data, new SessionDetailTransformers);
     }
 

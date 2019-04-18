@@ -24,6 +24,7 @@ class EnterprisesessionDatabaseSeeder extends Seeder
                 'user_id' => $i,
                 'session_id' => $i,
                 'status' => array_rand(['none','rejected','allow']),
+                'jobNews_id' => $i,
                 'created_at' => date('Y-m-d H:m:s', strtotime("-1 days", time())),
                 'updated_at' => date('Y-m-d H:m:s', strtotime("1 days", time())),
             ];

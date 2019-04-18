@@ -18,6 +18,7 @@ class CreateEnterprisesessionTable extends Migration
             $table->tinyInteger('user_id');
             $table->tinyInteger('session_id');
             $table->String('status');
+            $table->tinyInteger('jobNews_id');
             $table->timestamps();
         });
     }
