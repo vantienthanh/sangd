@@ -29,6 +29,9 @@
                         <table class="data-table table table-bordered table-hover">
                             <thead>
                             <tr>
+                                <th>ID</th>
+                                <th>Tên tài khoản</th>
+                                <th>Loại tài khoản</th>
                                 <th>{{ trans('core::core.table.created at') }}</th>
                                 <th data-sortable="false">{{ trans('core::core.table.actions') }}</th>
                             </tr>
@@ -37,6 +40,9 @@
                             <?php if (isset($frontendusers)): ?>
                             <?php foreach ($frontendusers as $frontenduser): ?>
                             <tr>
+                                <td>{{$frontenduser->id}}</td>
+                                <td>{{$frontenduser->username}}</td>
+                                <td>{{$frontenduser->role}}</td>
                                 <td>
                                     <a href="{{ route('admin.profile.frontenduser.edit', [$frontenduser->id]) }}">
                                         {{ $frontenduser->created_at }}

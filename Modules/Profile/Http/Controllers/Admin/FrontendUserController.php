@@ -31,9 +31,9 @@ class FrontendUserController extends AdminBaseController
      */
     public function index()
     {
-        //$frontendusers = $this->frontenduser->all();
+        $frontendusers = $this->frontenduser->all();
 
-        return view('profile::admin.frontendusers.index', compact(''));
+        return view('profile::admin.frontendusers.index', compact('frontendusers'));
     }
 
     /**
