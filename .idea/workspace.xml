@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22de62b7-91cf-4577-93ec-2fa3a6bbd88c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Modules/JobNews/Transformers/JobNewsTransformers.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/JobNews/Transformers/JobNewsTransformers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Profile/Database/Migrations/2019_03_20_022656758827_create_profile_frontendusers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Profile/Database/Migrations/2019_03_20_022656758827_create_profile_frontendusers_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Profile/Http/Controllers/Admin/FrontendUserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Profile/Http/Controllers/Admin/FrontendUserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Profile/Resources/views/admin/frontendusers/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Profile/Resources/views/admin/frontendusers/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/laravellocalization.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/laravellocalization.php" afterDir="false" />
-    </list>
+    <list default="true" id="22de62b7-91cf-4577-93ec-2fa3a6bbd88c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Modules/Profile/Database/Migrations/2019_03_20_022656758827_create_profile_frontendusers_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            <state relative-caret-position="322">
+              <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -415,7 +409,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/sangdFrontend" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
@@ -489,18 +483,17 @@
       <workItem from="1555420776892" duration="140000" />
       <workItem from="1555420918005" duration="1670000" />
       <workItem from="1555481447773" duration="13532000" />
-      <workItem from="1555548635169" duration="1182000" />
+      <workItem from="1555548635169" duration="1913000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189245000" />
+    <option name="totallyTimeSpent" value="189976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34532374" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20143884" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -854,8 +847,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Profile/Database/Migrations/2019_03_20_022656758827_create_profile_frontendusers_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        <state relative-caret-position="322">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
         </state>
       </provider>
     </entry>
