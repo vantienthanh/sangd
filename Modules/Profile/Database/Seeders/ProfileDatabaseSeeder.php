@@ -25,6 +25,7 @@ class ProfileDatabaseSeeder extends Seeder
                 'username' => $faker->userName,
                 'password' => $faker->password,
                 'role' => array_rand(['member','enterprise']),
+                'status' => 'active',
                 'created_at' => date('Y-m-d H:m:s', strtotime("-1 days", time())),
                 'updated_at' => date('Y-m-d H:m:s', strtotime("1 days", time())),
             ];
