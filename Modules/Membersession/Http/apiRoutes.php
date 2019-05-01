@@ -12,6 +12,7 @@ $api->version('v1', function ($api) {
         'as' => 'member.join-session.create',
         'uses' => 'Modules\Membersession\Http\Controllers\Api\MemberSessionController@create'
     ]);
+    //get list table joined by user id
     $api->get('/member/join-session/{id}', [
         'as' => 'member.join-session.list',
         'uses' => 'Modules\Membersession\Http\Controllers\Api\MemberSessionController@getListMember'

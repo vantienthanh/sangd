@@ -16,10 +16,11 @@ class MemberSessionTransformers extends TransformerAbstract
     public function transform($data)
     {
         return [
-            'id' => $data->id,
-            'user_id' => $data->user->id,
-            'username' => $data->user->info->name,
-            'timeInterview' => $data->timeInterview
+            'enterprise_id' => $data->enterpriseSession->user->id,
+            'enterprise_name' => $data->enterpriseSession->user->info? $data->enterpriseSession->user->info->name : null,
+            'enterprise_avatar' =>   $data->enterpriseSession->user->info?url('/').'/'. $data->enterpriseSession->user->info->avatar : null,
+            'timeInterview' => $data->timeInterview,
+            'created_at' => $data->created_at
         ];
     }
 }

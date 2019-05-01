@@ -45,7 +45,13 @@ class SessionController extends BaseController
 
     public function detailListEnterprise(Request $request)
     {
-        $data = $this->session->find($request->id)->enterpriseSession;
-        return $this->response->collection($data, new EnterpriseJoinSessionListTransformers);
+        $data = [];
+        $t = $this->session->find($request->id)->enterpriseSession;
+        foreach ($t  as $item) {
+            if($item->status == 1) {
+                array_push($data, $item);
+            }
+        }
+        return $this->response->collection(collect($data), new EnterpriseJoinSessionListTransformers);
     }
 }

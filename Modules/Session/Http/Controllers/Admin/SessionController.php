@@ -60,9 +60,8 @@ class SessionController extends AdminBaseController
     {
 //        dd(strtotime($request->startTime));
         $data = $request;
-        $data->startTime = strtotime($data->startTime);
+        $data->startTime =date('Y-m-d H:m:s',strtotime($data->startTime));
         $data->endTime = date('Y-m-d H:m:s',strtotime($data->endTime));
-        dd( $data->startTime);
         $this->session->create($data->all());
 
         return redirect()->route('admin.session.session.index')

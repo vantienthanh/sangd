@@ -37,34 +37,34 @@ class RegisterProfileSidebar implements \Maatwebsite\Sidebar\SidebarExtender
     public function extendWith(Menu $menu)
     {
         $menu->group(trans('core::sidebar.content'), function (Group $group) {
-            $group->item(trans('profile::profiles.title.profiles'), function (Item $item) {
-                $item->icon('fa fa-copy');
-                $item->weight(10);
-                $item->authorize(
-                     /* append */
-                );
-                $item->item(trans('profile::frontendusers.title.frontendusers'), function (Item $item) {
-                    $item->icon('fa fa-copy');
-                    $item->weight(0);
-                    $item->append('admin.profile.frontenduser.create');
-                    $item->route('admin.profile.frontenduser.index');
-                    $item->authorize(
-                        $this->auth->hasAccess('profile.frontendusers.index')
-                    );
-                });
-                $item->item(trans('profile::frontenduserinfos.title.frontenduserinfos'), function (Item $item) {
-                    $item->icon('fa fa-copy');
-                    $item->weight(0);
-                    $item->append('admin.profile.frontenduserinfo.create');
-                    $item->route('admin.profile.frontenduserinfo.index');
-                    $item->authorize(
-                        $this->auth->hasAccess('profile.frontenduserinfos.index')
-                    );
-                });
-// append
-
-
-            });
+//            $group->item(trans('profile::profiles.title.profiles'), function (Item $item) {
+//                $item->icon('fa fa-copy');
+//                $item->weight(10);
+//                $item->authorize(
+//                     /* append */
+//                );
+//                $item->item(trans('profile::frontendusers.title.frontendusers'), function (Item $item) {
+//                    $item->icon('fa fa-copy');
+//                    $item->weight(0);
+//                    $item->append('admin.profile.frontenduser.create');
+//                    $item->route('admin.profile.frontenduser.index');
+//                    $item->authorize(
+//                        $this->auth->hasAccess('profile.frontendusers.index')
+//                    );
+//                });
+//                $item->item(trans('profile::frontenduserinfos.title.frontenduserinfos'), function (Item $item) {
+//                    $item->icon('fa fa-copy');
+//                    $item->weight(0);
+//                    $item->append('admin.profile.frontenduserinfo.create');
+//                    $item->route('admin.profile.frontenduserinfo.index');
+//                    $item->authorize(
+//                        $this->auth->hasAccess('profile.frontenduserinfos.index')
+//                    );
+//                });
+//// append
+//
+//
+//            });
         });
 
         return $menu;

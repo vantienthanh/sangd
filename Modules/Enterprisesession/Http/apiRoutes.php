@@ -12,8 +12,14 @@ $api->version('v1', function ($api) {
         'as' => 'enterprise.join-session.create',
         'uses' => 'Modules\Enterprisesession\Http\Controllers\Api\EnterpriseSessionController@create'
     ]);
+
     $api->get('/enterprise/get-cv-by-table-id/{id}', [
         'as' => 'enterprise.join-session.search',
         'uses' => 'Modules\Enterprisesession\Http\Controllers\Api\EnterpriseSessionController@searchByTableID'
+    ]);
+
+    $api->get('/enterprise/get-list-user-join-table/{id}', [
+        'as' => 'enterprise.table.list',
+        'uses' => 'Modules\Enterprisesession\Http\Controllers\Api\EnterpriseSessionController@getAllMemberByUserID'
     ]);
 });

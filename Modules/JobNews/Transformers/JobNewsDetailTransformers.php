@@ -25,7 +25,8 @@ class JobNewsDetailTransformers extends TransformerAbstract
             'workingTime' => $data->workingTime,
             'amount' => $data->amount,
             'benefit' => $data->benefit,
-            'created_at' => $data->created_at
+            'created_at' => $data->created_at,
+            'companyName' => 'aaa'
         ];
     }
 }

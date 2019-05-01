@@ -12,4 +12,7 @@ class FrontendUserInfo extends Model
     protected $table = 'profile__frontendUserInfos';
 //    public $translatedAttributes = [];
     protected $fillable = ['name','phoneNumber','email','address','job','jobDetail','educationLevel','birthday','description','user_id'];
+    public function user () {
+        return $this->belongsTo(FrontendUser::class, 'user_id', 'id');
+    }
 }

@@ -7,7 +7,7 @@ use Modules\Core\Repositories\Eloquent\EloquentBaseRepository;
 
 class EloquentMembersessionRepository extends EloquentBaseRepository implements MembersessionRepository
 {
-    public function getListMember ($id) {
-        return $this->model->where('enterpriseSession_id', $id)->paginate('10');
+    public function getListJobJoin ($id) {
+        return $this->model->where('user_id', $id)->get();
     }
 }

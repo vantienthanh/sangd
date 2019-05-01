@@ -4,6 +4,7 @@ namespace Modules\Membersession\Entities;
 
 use Dimsav\Translatable\Translatable;
 use Illuminate\Database\Eloquent\Model;
+use Modules\Enterprisesession\Entities\Enterprisesession;
 use Modules\Profile\Entities\FrontendUser;
 
 class Membersession extends Model
@@ -16,5 +17,8 @@ class Membersession extends Model
 
     public function user() {
         return $this->belongsTo(FrontendUser::class, 'user_id', 'id');
+    }
+    public function enterpriseSession () {
+        return $this->belongsTo(Enterprisesession::class, 'enterpriseSession_id', 'id');
     }
 }

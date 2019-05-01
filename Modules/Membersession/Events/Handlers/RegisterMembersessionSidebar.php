@@ -37,24 +37,24 @@ class RegisterMembersessionSidebar implements \Maatwebsite\Sidebar\SidebarExtend
     public function extendWith(Menu $menu)
     {
         $menu->group(trans('core::sidebar.content'), function (Group $group) {
-            $group->item(trans('membersession::membersessions.title.membersessions'), function (Item $item) {
-                $item->icon('fa fa-copy');
-                $item->weight(10);
-                $item->authorize(
-                     /* append */
-                );
-                $item->item(trans('membersession::membersessions.title.membersessions'), function (Item $item) {
-                    $item->icon('fa fa-copy');
-                    $item->weight(0);
-                    $item->append('admin.membersession.membersession.create');
-                    $item->route('admin.membersession.membersession.index');
-                    $item->authorize(
-                        $this->auth->hasAccess('membersession.membersessions.index')
-                    );
-                });
-// append
-
-            });
+//            $group->item(trans('membersession::membersessions.title.membersessions'), function (Item $item) {
+//                $item->icon('fa fa-copy');
+//                $item->weight(10);
+//                $item->authorize(
+//                     /* append */
+//                );
+//                $item->item(trans('membersession::membersessions.title.membersessions'), function (Item $item) {
+//                    $item->icon('fa fa-copy');
+//                    $item->weight(0);
+//                    $item->append('admin.membersession.membersession.create');
+//                    $item->route('admin.membersession.membersession.index');
+//                    $item->authorize(
+//                        $this->auth->hasAccess('membersession.membersessions.index')
+//                    );
+//                });
+//// append
+//
+//            });
         });
 
         return $menu;

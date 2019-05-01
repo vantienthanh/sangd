@@ -33,8 +33,8 @@ class MemberSessionController extends BaseController
 
     public function getListMember(Request $request)
     {
-        $list = $this->memberSession->getListMember($request->id);
-        dd($list);
-        return $this->response->paginator($list, new MemberSessionTransformers)->setStatusCode(200);
+        $list = $this->memberSession->getListJobJoin($request->id);
+//        dd($list);
+        return $this->response->collection($list, new MemberSessionTransformers)->setStatusCode(200);
     }
 }

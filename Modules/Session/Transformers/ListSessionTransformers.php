@@ -18,7 +18,8 @@ class ListSessionTransformers extends TransformerAbstract
             'id' => $data->id,
             'title' => $data->title,
             'startTime' => $data->startTime,
-            'endTime' => $data->endTime
+            'endTime' => $data->endTime,
+            'location' => $data->location
         ];
     }
 }

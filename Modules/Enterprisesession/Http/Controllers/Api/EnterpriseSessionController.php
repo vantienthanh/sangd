@@ -36,4 +36,8 @@ class EnterpriseSessionController extends BaseController
         $data = $this->jobNews->find($table->jobNews_id);
         return $this->response->item($data, new JobNewsDetailTransformers);
     }
+
+    public function getAllMemberByUserID (Request $request) {
+        $data = $this->enterprisesession->find($request->id);
+    }
 }
