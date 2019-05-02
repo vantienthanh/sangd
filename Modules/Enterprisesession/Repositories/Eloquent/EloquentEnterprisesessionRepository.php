@@ -16,4 +16,8 @@ class EloquentEnterprisesessionRepository extends EloquentBaseRepository impleme
     public function getUserByStatus ($status) {
         return $this->model->where('status', $status)->get();
     }
+
+    public function getSessionUserJoined ($user_id) {
+        return $this->model->where('user_id', $user_id)->where('status','1')->get();
+    }
 }

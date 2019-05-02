@@ -22,7 +22,8 @@ class MemberCVTransformers extends TransformerAbstract
             'created_at' => $data->created_at,
             'job' => $data->job,
             'workingTime' => $data->workingTime,
-            'avatar' => isset($data->user) ? url('/').'/'.$data->user->info->avatar: null
+            'avatar' => isset($data->user->info) ? url('/').'/'.$data->user->info->avatar: null,
+            'fullName' => isset($data->user->info) ? $data->user->info->name : 'ứng viên chưa cập nhật thông tin'
         ];
     }
 }

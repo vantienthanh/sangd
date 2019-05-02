@@ -11,6 +11,10 @@ $api->version('v1', function ($api) {
         'as' => 'enterprise.jobNews.list',
         'uses' => 'Modules\JobNews\Http\Controllers\Api\JobNewsController@index'
     ]);
+    $api->get('/enterprise/job-news/part-time', [
+        'as' => 'enterprise.jobNews.partTime',
+        'uses' => 'Modules\JobNews\Http\Controllers\Api\JobNewsController@partTime'
+    ]);
     $api->get('/enterprise/job-news/all-of-user/{id}', [
         'as' => 'enterprise.jobNews.list',
         'uses' => 'Modules\JobNews\Http\Controllers\Api\JobNewsController@findByUserID'

@@ -57,4 +57,8 @@ class JobNewsController extends BaseController
         return $this->withCustomSuccess();
 
     }
+    public function partTime () {
+        $data = $this->jobnews->getPartTime();
+        return $this->response->collection($data, new JobNewsTransformers);
+    }
 }

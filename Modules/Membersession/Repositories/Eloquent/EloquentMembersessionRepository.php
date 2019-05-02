@@ -10,4 +10,7 @@ class EloquentMembersessionRepository extends EloquentBaseRepository implements 
     public function getListJobJoin ($id) {
         return $this->model->where('user_id', $id)->get();
     }
+    public function getByESessionID ($id) {
+        return $this->model->where('enterpriseSession_id', $id)->get();
+    }
 }

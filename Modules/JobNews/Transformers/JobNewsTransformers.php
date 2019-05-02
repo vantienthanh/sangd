@@ -19,7 +19,8 @@ class JobNewsTransformers extends TransformerAbstract
             'title' => $data->title,
             'salary' => $data->salary,
             'created_at' => $data->created_at,
-            'avatar' => isset($data->user->info) ? url('/').'/'.$data->user->info->avatar: null
+            'avatar' => isset($data->user->info) ? url('/').'/'.$data->user->info->avatar: null,
+            'companyName' => $data->user->info? $data->user->info->name : "Không có thông tin về công ty",
         ];
     }
 }

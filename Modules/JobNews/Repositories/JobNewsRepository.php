@@ -8,4 +8,6 @@ interface JobNewsRepository extends BaseRepository
 {
     public function getByUserType ($type);
     public function getByUserID ($id);
+    public function getPartTime ();
+    public function getFreeLancer ();
 }

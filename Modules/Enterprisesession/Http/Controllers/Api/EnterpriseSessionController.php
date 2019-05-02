@@ -13,17 +13,23 @@ use App\Http\Controllers\BaseController;
 use Illuminate\Http\Request;
 use Modules\Enterprisesession\Http\Requests\CreateEnterprisesessionRequest;
 use Modules\Enterprisesession\Repositories\EnterprisesessionRepository;
+use Modules\Enterprisesession\Transformers\ProfileListSessionTransformers;
 use Modules\JobNews\Repositories\JobNewsRepository;
 use Modules\JobNews\Transformers\JobNewsDetailTransformers;
+use Modules\Membersession\Repositories\MembersessionRepository;
+use Modules\Membersession\Transformers\ListMemberJoinedTableTransformers;
+use Modules\Session\Transformers\ListSessionTransformers;
 
 class EnterpriseSessionController extends BaseController
 {
     private $enterprisesession;
     private $jobNews;
-    public function __construct(EnterprisesessionRepository $enterprisesession, JobNewsRepository $jobNews)
+    private $memberSession;
+    public function __construct(EnterprisesessionRepository $enterprisesession, JobNewsRepository $jobNews, MembersessionRepository $memberSession)
     {
         $this->enterprisesession = $enterprisesession;
         $this->jobNews = $jobNews;
+        $this->memberSession = $memberSession;
     }
 
     public function create (CreateEnterprisesessionRequest $request) {
@@ -37,7 +43,13 @@ class EnterpriseSessionController extends BaseController
         return $this->response->item($data, new JobNewsDetailTransformers);
     }
 
-    public function getAllMemberByUserID (Request $request) {
-        $data = $this->enterprisesession->find($request->id);
+    public function getAllMemberByTableID (Request $request) {
+        $data = $this->memberSession->getByESessionID($request->id);
+        return $this->response->collection($data, new ListMemberJoinedTableTransformers());
+    }
+
+    public function userJoined (Request $request) {
+        $data = $this->enterprisesession->getSessionUserJoined($request->id);
+        return $this->response->collection($data, new ProfileListSessionTransformers());
     }
 }

@@ -20,6 +20,11 @@ $api->version('v1', function ($api) {
 
     $api->get('/enterprise/get-list-user-join-table/{id}', [
         'as' => 'enterprise.table.list',
-        'uses' => 'Modules\Enterprisesession\Http\Controllers\Api\EnterpriseSessionController@getAllMemberByUserID'
+        'uses' => 'Modules\Enterprisesession\Http\Controllers\Api\EnterpriseSessionController@getAllMemberByTableID'
+    ]);
+
+    $api->get('/enterprise/get-list-session-user-joined/{id}', [
+        'as' => 'enterprise.user.joined',
+        'uses' => 'Modules\Enterprisesession\Http\Controllers\Api\EnterpriseSessionController@userJoined'
     ]);
 });

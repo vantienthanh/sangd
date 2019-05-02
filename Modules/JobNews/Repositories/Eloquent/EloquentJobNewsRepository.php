@@ -13,4 +13,10 @@ class EloquentJobNewsRepository extends EloquentBaseRepository implements JobNew
     public function getByUserID ($id) {
         return $this->model->where('user_id', $id)->get();
     }
+    public function getPartTime () {
+        return $this->model->where('workingTime', 'PartTime')->take(12)->get();
+    }
+    public function getFreeLancer () {
+        return $this->model->where('workingTime', 'Freelancer')->get();
+    }
 }
